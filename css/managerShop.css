@@ -118,9 +118,9 @@ button.shop-edit-btn{
     float: left;
 }
 .warehouse-title{
-    height: 60px;
+    height: 40px;
     padding: 0px 28px;
-    line-height: 60px;
+    line-height: 40px;
     font-size: 17px;
     border: 1px solid #ccc;
 }
@@ -144,7 +144,7 @@ button.shop-edit-btn{
     position: relative;
 }
 .warehouse-table tbody tr{
-    height: 100px;
+    height: 90px;
     border-bottom: 2px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -198,8 +198,8 @@ button.shop-edit-btn{
     text-decoration: underline;
 }
 .table-bottom-div{
-    height: 65px;
-    line-height: 65px;
+    height: 45px;
+    line-height: 45px;
     background-color: #e1e0df;
     padding-left: 50px;
 }
@@ -298,13 +298,13 @@ button.shop-edit-btn{
     width: 100%;
 }
 .manage-table thead tr{
-    height: 40px;
+    height: 32px;
     background-color: #e1e0df;
-    line-height: 40px;
+    line-height: 32px;
     border:1px solid #e1e0df;
 }
 .manage-table thead tr *{
-    font-size: 16px;
+    font-size: 14px;
 }
 .manage-table th,.manage-table td{
     min-width: 100px;
@@ -318,7 +318,7 @@ button.shop-edit-btn{
     position: relative;
 }
 .manage-table tbody tr{
-    height: 112px;
+    height: 90px;
     border-bottom: 2px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -389,8 +389,8 @@ button.shop-edit-btn{
     color: blue;
 }
 .manage-table-bottom{
-    height: 65px;
-    line-height: 65px;
+    height: 45px;
+    line-height: 45px;
     background-color: #e1e0df;
     padding-left: 20px;
 }
@@ -556,18 +556,18 @@ button.shop-edit-btn{
 }
 
 .shop-selected-box{
-    height: 60px;
+    height: 40px;
     border: 1px solid #ccc;
 }
 .shop-selected-ul{
     margin-left: 40px;
 }
 .shop-selected-ul .shop-selected-li{
-    line-height: 60px;
+    line-height: 40px;
     display: inline;
     margin: 0px 10px;
-    padding: 5px 15px;
-    font-size: 16px;
+    padding: 3px 10px;
+    font-size: 14px;
     cursor: pointer;
 }
 

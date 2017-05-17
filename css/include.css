@@ -2,7 +2,7 @@
     overflow: hidden;
     width: 1155px;
     margin-top: 10px;
-    border: 1px solid #7b7b7b;
+
 }
 
 .shop-recommend-title{
@@ -11,8 +11,39 @@
 }
 .shop-recommend-title h2{
     text-indent: 13px;
-    color: #E60016;
+    color: #000;
     font-size: 18px;
+}
+.top-roll-box .btn-pro{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+    height: 28px;
+    width: 28px;
+    font-size: 0px;
+    border-radius: 14px;
+    z-index: 99;
+    font-size: 0px;
+    text-align: center;
+    background-color: rgba(180,180,180,0.6);
+    cursor: pointer;
+}
+.top-roll-box .btn-next{
+    position: absolute;
+    right: 10px;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    z-index: 99;
+    top: 65px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 0px;
+    cursor: pointer;
+    background-color: rgba(180,180,180,0.6);
+}
+.top-roll-box .btn-next img,.top-roll-box .btn-pro img{
+    margin: 4px 0px;
 }
 
 .recommend-selected-ul{
@@ -51,6 +82,9 @@
 }
 .recommend-bottom{
     overflow: hidden;
+    border: 1px solid #7b7b7b;
+    border-top: 2px solid #e60016;
+    padding: 2px;
 }
 
 .recommend-ele-box{
@@ -61,29 +95,59 @@
     float: left;
     margin-right: 2px;
     position: relative;
+    padding: 4px;
 }
 .recommend-ele>img{
-    height: 176px;
-    width: 163px;
+    height: 154px;
+    width: 154px;
 }
 .recommend-ele .recommend-back-div{
     position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    background-color: rgba(180,180,180,0.6);
+    /*display: none;*/
+    height: 32px;
+    transition: height 0.5s;
+    overflow: hidden;
+    padding: 3px 0px;
 }
+.recommend-ele:hover{
+    z-index: 11;
+}
+.recommend-ele:hover .recommend-back-div{
+    /*display: block;*/
+    height: 50px;
+
+}
+
 .recommend-ele .recommend-back-div .recommend-ele-title{
-    display: block;
-    position: absolute;
+    color: #000;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 35px;
-    background-color: rgba(220,220,220,0.7);
+    height: 34px;
+    overflow: hidden;
+    padding: 0px 5px;
     text-align: center;
-    line-height: 35px;
-    font-size: 16px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.recommend-ele .recommend-back-div .recommend-ele-title:hover{
+    color: #e60016;
+    text-decoration: underline;
+}
+
+.recommend-ele .recommend-back-div .address-p{
+    line-height: 16px;
+    font-size: 11px;
+    color: #666;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    text-indent: 90px;
 }
 .recommend-operation-box{
     text-align: center;
@@ -149,7 +213,7 @@
 }
 
 .shop-top-box{
-  height: 85px;
+    height: 85px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1154px 85px;
@@ -161,24 +225,22 @@
     float: left;
 }
 .shop-top-box .shop-top-info{
-     float: left;
+    float: left;
     margin-left: 40px;
     padding: 20px 0px;
     height: 45px;
 }
 .shop-top-box .shop-top-info p,.shop-top-box .shop-top-info a{
- 
     vertical-align: middle;
     display: block;
-    max-width: 320px;
+    max-width: 250px;
     height: 45px;
     background-color: rgba(255,255,255,0.7);
     padding: 0px 20px;
     font-weight: 600;
     font-size: 15px;
     float: left;
-    /*margin-right: 60px;*/
-
+    margin-right: 60px;
 }
 .shop-top-box .shop-top-info a{
     /*background-color: #e60016;*/
@@ -190,10 +252,10 @@
 .goods-item-box{
     width: 173px;
     border: 1px solid #c7c7c7;
-    /*padding: 5px 5px;*/
-   margin: 5px 8px 5px 9px;
-    float: left
+    float: left;
+    margin: 5px 8px 5px 9px;
 }
+
 
 .goods-item-box:hover{
     border-color: orangered;

@@ -750,9 +750,9 @@ span.paging-supen-point{
     background-color: #fff;
 }
 .alert-back .alert-box .alert-top-title {
-    height: 52px;
-    text-indent: 40px;
-    line-height: 52px;
+    height: 40px;
+    text-indent: 24px;
+    line-height: 40px;
     background: #F2F1F1;
 }
 .alert-back .alert-box .alert-top-title span {
@@ -761,13 +761,14 @@ span.paging-supen-point{
 .alert-back .alert-box .alert-top-title span.delete {
     display: block;
     float: right;
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 16px;
     background: url("/img/76.png") no-repeat;
+    background-size: 16px 16px;
     position: relative;
-    top: 17px;
+    top: 12px;
     cursor: pointer;
-    right: 30px;
+    right: 24px;
 }
 .alert-back .alert-box .alert-top-title span.delete:active {
     background-image: url("/img/77.png");
