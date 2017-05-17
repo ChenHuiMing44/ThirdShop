@@ -82,7 +82,7 @@
   height: 25px;
   padding: 15px 0px 8px 0px;
   overflow: hidden;
-  background: url("/img/1.png") no-repeat;
+  background: url("/Static/images/pop/1.png") no-repeat;
   margin: auto;
 }
 .order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2,
@@ -138,7 +138,7 @@
   color: #E60016 !important;
 }
 .content-table-ele .ele-head > .remark.no-remark {
-  background-image: url("/img/2.png") !important;
+  background-image: url("/Static/images/pop/2.png") !important;
   color: #999 !important;
 }
 .content-table-ele .ele-head > .remark .remark-box {
@@ -180,12 +180,12 @@
   height: 12px;
   width: 12px;
   cursor: pointer;
-  background: url("/img/67.png") no-repeat;
+  background: url("/Static/images/pop/67.png") no-repeat;
   background-size: 12px 12px;
   display: block;
 }
 .content-table-ele .ele-head > .remark .remark-box .remark-content .remark-content-delete:active {
-  background-image: url("/img/67_s.png");
+  background-image: url("/Static/images/pop/67_s.png");
 }
 .content-table-ele .ele-head > .remark .remark-box .remark-content textarea {
   min-width: 220px;
@@ -345,7 +345,7 @@
 .content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > .remark,
 .content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > .remark,
 .content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > .remark {
-  background: url("/img/463.png") no-repeat 10px;
+  background: url("/Static/images/pop/463.png") no-repeat 10px;
   background-size: 16px 16px;
   padding-left: 30px;
   font-size: 14px;
@@ -364,13 +364,13 @@
   white-space: nowrap;
   margin: 0px;
   padding-left: 24px;
-  background: url("/img/658.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/658.png") no-repeat 0px 2px;
 }
 .content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
 .content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
 .content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
   padding-left: 20px;
-  background: url("/img/4.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/4.png") no-repeat 0px 2px;
 }
 .content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
 .content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
@@ -692,7 +692,7 @@
 }
 .content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > .remark,
 .content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > .remark {
-  background: url("/img/463.png") no-repeat 10px;
+  background: url("/Static/images/pop/463.png") no-repeat 10px;
   background-size: 16px 16px;
   padding-left: 30px;
   font-size: 14px;
@@ -710,12 +710,12 @@
   white-space: nowrap;
   margin: 0px;
   padding-left: 24px;
-  background: url("/img/658.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/658.png") no-repeat 0px 2px;
 }
 .content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
 .content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
   padding-left: 20px;
-  background: url("/img/4.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/4.png") no-repeat 0px 2px;
 }
 .content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
 .content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > a.order-detail-a {
@@ -975,7 +975,7 @@
 }
 .content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > .remark,
 .content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > .remark {
-  background: url("/img/463.png") no-repeat 10px;
+  background: url("/Static/images/pop/463.png") no-repeat 10px;
   background-size: 16px 16px;
   padding-left: 30px;
   font-size: 14px;
@@ -993,12 +993,12 @@
   white-space: nowrap;
   margin: 0px;
   padding-left: 24px;
-  background: url("/img/658.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/658.png") no-repeat 0px 2px;
 }
 .content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
 .content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
   padding-left: 20px;
-  background: url("/img/4.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/4.png") no-repeat 0px 2px;
 }
 .content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
 .content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a {
@@ -1136,10 +1136,11 @@
 .content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-status a {
   display: inline-block;
   height: 30px;
+  line-height: 30px;
   padding: 0px;
   text-align: center;
   width: 80px;
-  margin-left: 20px;
+  margin: 0px 0px 2px 20px;
 }
 .content-table-box.ship-no-manager-table .content-table-bottom,
 .content-table-box.ship-manager-table .content-table-bottom {
@@ -1250,7 +1251,7 @@
 }
 .consignee-info-box .consignee-info-div {
   padding: 10px 20px;
-  height: 120px;
+  height: 140px;
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -1517,9 +1518,6 @@
 .order-detail-model .model-content.receivables-box > table tr {
   height: 40px;
 }
-.change-order-alert.alert-content {
-  width: 808px;
-}
 .change-order-alert.alert-content .change-order-title {
   line-height: 40px;
   height: 40px;
@@ -1592,6 +1590,9 @@
 }
 .change-order-alert.alert-content .change-order-table .content-table-head div.order-info {
   width: 218px;
+}
+.change-order-alert.alert-content {
+  width: 808px;
 }
 .change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content {
   float: left;
@@ -1773,13 +1774,13 @@
 .order-ship-content .send-record-box .send-record-content > .order-info span.buyer-name,
 .order-ship-content .send-record-box .send-record-content > .order-info a.buyer-name {
   padding-left: 20px;
-  background: url("/img/658.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/658.png") no-repeat 0px 2px;
   background-size: 18px 18px;
 }
 .order-ship-content .send-record-box .send-record-content > .order-info span.buyer-tel,
 .order-ship-content .send-record-box .send-record-content > .order-info a.buyer-tel {
   padding-left: 20px;
-  background: url("/img/4.png") no-repeat 0px 2px;
+  background: url("/Static/images/pop/4.png") no-repeat 0px 2px;
   background-size: 18px 18px;
 }
 .order-ship-table {
