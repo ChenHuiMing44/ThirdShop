@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet"type="text/css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <link href="/css/managerfinance.css" rel="stylesheet"/>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/financeInvoiceManager.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="alert-back hidden">
+    <div class="alert-box">
+        <div class="alert-top-title"><span>我要开票（安吉阿母工业设备有限公司）</span><span class="delete"></span></div>
+        <div class="alert-content account-receiv-box">
+            <div class="alert-selected-bar">
+                <div val="1" class="alert-selected-ele selected">我要开票?</div>
+                <div val="2" class="alert-selected-ele">要我开票？</div>
+            </div>
+            <div class="selected-content-box">
+                <div id="selected-content-one" class="selected-content selected">
+                    这个是 第一个
+                </div>
+                <div id="selected-content-two" class="selected-content">
+                    这个是 第二个
+                </div>
+            </div>
+
+            <!--<div class="account-receiv-left">-->
+                <!--<div class="receiv-date-box">-->
+                    <!--<span>开票日期:</span>-->
+                    <!--<input type="date" class="input2">-->
+                <!--</div>-->
+
+                <!--<br/>-->
+                <!--<div class="receiv-money-box">-->
+                    <!--<span>开票金额:</span>-->
+                    <!--<input type="number" class="input2" placeholder="请输入开票金额"/>-->
+                <!--</div>-->
+                <!--<br/>-->
+                <!--<div class="receiv-number-box">-->
+                    <!--<span>发票编号:</span>-->
+                    <!--<input type="text" class="input2" placeholder="请输入发票编号"/>-->
+                <!--</div>-->
+                <!--<br/>-->
+                <!--<div class="invoice-type-box">-->
+                    <!--<label>发票类型</label>-->
+                    <!--<div class="radio-round-box">-->
+
+                        <!--<div class="radio-box active">-->
+                            <!--<label>普通发票</label>-->
+                        <!--</div>-->
+                        <!--<div class="radio-box">-->
+                            <!--<label>增值税发票</label>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<br/>-->
+                <!--<div class="receiv-money-box">-->
+                    <!--<span>开票对象:</span>-->
+                    <!--<input type="text" class="input2 big" value="安吉阿母工业设备有限公司" placeholder="输入开票对象公司"/>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="account-receiv-right">-->
+                <!--<div class="invoice-remark-box">-->
+                    <!--<span>备注:</span>-->
+                    <!--<textarea class=""></textarea>-->
+                <!--</div>-->
+                <!--<br/>-->
+                <!--<div>-->
+                    <!--<span>上传凭证:</span>-->
+                    <!--<div class="upload-box">-->
+                        <!--<div class="upload-btn">-->
+                            <!--<input type="file" accept="image/jpeg,image/gif,image/png" class="hidden"/>-->
+                        <!--</div>-->
+                        <!--<div class="input-file-box">-->
+                            <!--<input type="file" name="uploadImg" accept="image/jpeg,image/gif,image/png" onchange="change($(this))" class="hidden last-input"/>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="clear-both"></div>-->
+
+
+
+
+            <!--<button class="redback-btn2">确认开票</button>-->
+        </div>
+    </div>
+</div>
+
+<div class="alert-back ">
+    <div class="alert-box">
+        <div class="alert-top-title"><span>开票记录</span><span class="delete"></span></div>
+        <div class="alert-content alert-invoice-record-box">
+            <div class="order-info-box">
+                <p class="order-info-title">订单信息:</p>
+                <div class="order-info-ele-box">
+                    <div class="order-info-ele">订单号:531451455144</div>
+                    <div class="order-info-ele">成交时间:2017-03-04 12:12</div>
+                    <div class="order-info-ele">订单金额:<span>¥45000</span></div>
+                    <div class="order-info-ele">已开票金额:<span>¥20000</span></div>
+                    <div class="order-info-ele">买家名称:安吉阿母工业设备有限公司</div>
+                    <div class="order-info-ele">买家账号:13535875962</div>
+                    <div class="order-info-ele">买家电话:13535875962</div>
+                </div>
+            </div>
+            <div class="invoice-record-table-box">
+                <p class="order-info-title">开票记录表:</p>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>发票编号</th>
+                        <th>发票类型</th>
+                        <th>发票抬头</th>
+                        <th>开票时间</th>
+                        <th>开票金额</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>212145214</td>
+                        <td>增值税发票</td>
+                        <td>安吉阿母工业设备有限公司</td>
+                        <td>
+                            <p>2016-09-12</p>
+                            <p>12:44</p>
+                        </td>
+                        <td>¥<span>10000</span></td>
+                        <td>
+                            <button class="redback-btn2">删除</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>212145214</td>
+                        <td>增值税发票</td>
+                        <td>安吉阿母工业设备有限公司</td>
+                        <td>
+                            <p>2016-09-12</p>
+                            <p>12:44</p>
+                        </td>
+                        <td>¥<span>10000</span></td>
+                        <td>
+                            <button class="redback-btn2">删除</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container float-box">
+    @@include("public/managerShopLeft.html",{"kind":"3","num":"3"})
+
+    <div class="right-content-box">
+        <div class="top-route-box">
+        </div>
+        <script>
+            var data = [{name:'财务管理',url:''}, {
+                    name:'发票管理',url:''},{
+                    name:'我要开票',url:''
+                }
+            ];
+            initRouteBox(data,$('.top-route-box'));
+        </script>
+        <div class="finance-right-top">
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    买家查询
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2" placeholder="输入账号/名称..."/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                    <span class="order-top-title1">
+                        订单金额
+                    </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="text">
+                    <span class="separate"></span>
+                    <input class="input2" type="text"/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    订单编号
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                    <span class="order-top-title1">
+                        下单日期
+                    </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="date">
+                    <span class="separate"></span>
+                    <input class="input2" type="date"/>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+            <button class="redback-btn3 search-order">搜索客户</button>
+        </div>
+        <div class="content-table-top">
+            <div class="table-selected-box ">
+                <a class="table-selected-ele active">未开票</a>
+                <a class="table-selected-ele" href="financeInvoiceRecord.html">已开票</a>
+            </div>
+            <div class="flip-box">
+                <a>上一页</a>
+                <a>下一页</a>
+            </div>
+        </div>
+        <div class="content-table-box invoice-manager-table">
+            <div class="content-table-head">
+                <div class="selected-order"></div>
+                <div class="order-info">订单信息</div>
+                <div class="product-number">数量</div>
+                <div class="order-money">订单金额</div>
+                <div class="buyer-account">买家账号</div>
+                <div class="buyer-record">买家开票记录</div>
+                <div class="operation">操作</div>
+            </div>
+            <div class="content-table-content">
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a" href="orderDetail.html">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="selected-order float-left">
+                            <div class="check-box-rect">
+
+                            </div>
+                        </div>
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                   <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                   </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="product-number"><span>1</span></div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="order-money">￥<span>45000</span></div>
+                            <div class="buyer-account">15387219688</div>
+                            <div class="buyer-record"><a class="noneback-red-btn">开票记录</a></div>
+                            <div class="operation"><button class="redback-btn2 billing-btn">开票</button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a" href="orderDetail.html">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="selected-order float-left">
+                            <div class="check-box-rect">
+
+                            </div>
+                        </div>
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="product-number"><span>1</span></div>
+                            </div>
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="product-number"><span>1</span></div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="order-money">￥<span>45000</span></div>
+                            <div class="buyer-account">15387219688</div>
+                            <div class="buyer-record"><a class="noneback-red-btn">开票记录</a></div>
+                            <div class="operation"><button class="redback-btn2 billing-btn">开票</button></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="account-table-bottom">
+            <button class="invoice-batch-btn">批量开票</button>
+            <div class="paging-box float-right"></div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

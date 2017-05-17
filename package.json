@@ -1,0 +1,25 @@
+{
+  "name": "thirdShop",
+  "version": "1.0.0",
+  "description": "this a imow project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-file-include": "^0.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^4.1.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-sequence": "^0.4.5",
+    "gulp-watch": "^4.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chm",
+  "license": "ISC"
+}

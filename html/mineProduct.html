@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css"/>
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/managerShop.css" rel="stylesheet"/>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/mineProduct.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="alert-back hidden">
+    <div class="alert-box">
+        <div class="alert-top-title"><span>编辑店铺产品</span><span class="delete"></span></div>
+        <div class="alert-content edit-box">
+            <button class="redback-btn1" id="edit-save">确认保存</button>
+            <div class="edit-right-ele">
+                <p class="shop-info-p">商品名称:<span class="shop-info-span">2.0-2.5吨发动机内燃叉车</span></p>
+            </div>
+
+            <div class="edit-right-ele">
+                <p class="shop-info-p">商品分类:<span class="shop-info-span">搬运设备</span></p>
+            </div>
+
+            <div class="edit-right-ele">
+                <p class="shop-info-p">选择上架型号</p>
+                <div class="edit-ele-content">
+                    <div class="choice-model-box">
+                        <div class="check-box-round edit-selected-all">
+                            <!--<img src="/img/11.png">-->
+                            <span>全选</span>
+                        </div>
+                        <div class="choice-ele-box">
+                            <div class="choice-model-ele">
+                                <div class="check-box-round float-left">
+                                    <!--<img src="/img/11.png">-->
+                                </div>
+                                <div class="choice-ele-info float-left">
+
+                                        <p>重量:3t</p>
+                                        <p>颜色:红色</p>
+
+                                </div>
+
+                                <div class="im-sell-price float-left">
+                                    阿母价:<span>5589.00</span>
+                                </div>
+
+                            </div>
+                            <div class="choice-model-ele">
+                                <div class="check-box-round float-left">
+
+                                </div>
+                                <div class="choice-ele-info float-left">
+
+                                        <p>重量:3t</p>
+                                        <p>颜色:红色</p>
+                                        <p>型号:TN421</p>
+                                        <p>SKU号:545454</p>
+
+
+                                </div>
+
+                                <div class="im-sell-price float-left">
+                                    阿母价:<span>6189.00</span>
+                                </div>
+                            </div>
+                            <div class="choice-model-ele">
+                                <div class="check-box-round float-left">
+
+                                </div>
+                                <div class="choice-ele-info float-left">
+                                    <p>重量:3t</p>
+                                    <p>颜色:红色</p>
+                                    <p>型号:TN421</p>
+                                    <p>SKU号:545454</p>
+                                </div>
+
+                                <div class="im-sell-price float-left">
+                                    阿母价:<span>6589.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container float-box">
+    @@include("public/managerShopLeft.html",{"kind":"1","num":"1"})
+    <div class="shop-noneborder-content">
+        <div class="right-content-top">
+
+            <div class="top-ele">
+                <span class="top-ele-title">
+                    产品名称
+                </span>
+                <input type="text" class="input2"/>
+            </div>
+            <div class="top-ele">
+                <span class="top-ele-title">产品分类</span>
+                <div class="drop-down-box2 drop-down-box">
+                    <a>全部</a>
+                    <img class="drop-down-img1" src="/img/47.png">
+                    <ul class="drop-down-ul hidden">
+                        <li>导航内容1</li>
+                        <li>导航内容2</li>
+                        <li>导航内容3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-ele">
+                <span class="top-ele-title">价格</span>
+                <input type="number" class="input4"/><span class="trans"></span>
+                <input type="number" class="input4"/>
+            </div>
+            <div class="top-ele">
+                <span class="top-ele-title">
+                    SKU号
+                </span>
+                <input type="text" class="input2"/>
+            </div>
+            <div class="clear-both"></div>
+            <button class="redback-btn1 search-product">搜索产品</button>
+        </div>
+        <div class="shop-selected-box">
+            <ul class="shop-selected-ul">
+                <li class="shop-selected-li">全部</li>
+                <li class="shop-selected-li selected">已上架</li>
+                <li class="shop-selected-li">未上架</li>
+            </ul>
+        </div>
+        <div class="choice-product"></div>
+        <table class="manage-table">
+            <thead>
+            <tr>
+                <th class="product-name">产品名称</th>
+                <th>单价</th>
+
+                <th>创建时间</th>
+                <th>商品信息</th>
+                <th>上架状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="product-name">
+                    <div class="check-box-round">
+
+                    </div>
+                    <img src="/img/goodsDetail.png"/>
+                    <div class="product-name-info">
+                        <p>2.0-2.5吨手动液压搬运车</p>
+
+                    </div>
+                </td>
+                <td>¥<span class="red-color">5532</span></td>
+
+                <td>2016-11-14</td>
+                <td>
+                    <a>详情</a>
+                    <!--<div style="width: 10px;display: inline-block"></div>-->
+                    <button class="noneback-blue-btn edit-mine-product-btn">编辑</button>
+                </td>
+                <td><span class="shelves">已上架</span></td>
+                <td><button class="shelves-btn">上架</button><button class="delete-product">删除</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="manage-table-bottom">
+            <div class="check-box-round shop-selected-all">
+
+                <span>全选</span>
+            </div>
+            <button class="shop-bottom-btn">批量上架</button>
+            <button class="shop-bottom-btn">批量删除</button>
+            <div class="paging-box float-right"></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <script src="/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/upShop.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    @@include("public/upShopTop.html",{"step":"1"})
+    <div class="step2-content-box">
+        <div class="step2-content-title">请填写店主和店铺信息(带<span class="redcolor">*</span>为必填项)</div>
+        <form>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">店铺名称</span>
+                <input type="text" class="input1" name="shopName" />
+                <span class="must-remark redcolor">*</span>
+                <div class="step2-content-ele-hint">请控制在20个字符以内</div>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">主营商品</span>
+                <textarea class="textarea1"></textarea>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">经营地址</span>
+                <div class="choice-province">
+                    <div class="choice-province-top">
+                        <span>请选择</span>
+                        <div class="choice-province-drow"></div>
+                    </div>
+                    <div class="choice-province-content hidden">
+                        <div class="choice-province-content-top">
+                            <div class="province-top-ele province active">省份</div>
+                            <div class="province-top-ele city">城市</div>
+                            <div class="province-top-ele county">县区</div>
+                            <div class="province-top-ele street">街道</div>
+                        </div>
+                        <div class="province-content address-content">
+                            <span>安徽</span>
+                            <span>北京</span>
+                            <span>重庆</span>
+                            <span>福建</span>
+                            <span>甘肃</span>
+                            <span>广东</span>
+                            <span>广西</span>
+                        </div>
+                        <div class="city-content address-content hidden">
+                            <span>杭州</span>
+                            <span>丽水</span>
+                            <span>温州</span>
+                            <span>绍兴</span>
+                            <span>湖州</span>
+                            <span>温岭</span>
+                            <span>宁波</span>
+                            <span>衢州</span>
+                            <span>义务</span>
+                            <span>金华</span>
+                        </div>
+                        <div class="county-content address-content hidden">
+                            <span>江干区</span>
+                            <span>下城区</span>
+                            <span>上城区</span>
+                            <span>西湖区</span>
+                            <span>滨江区</span>
+                            <span>萧山区</span>
+                            <span>余杭区</span>
+                            <span>拱墅区</span>
+                        </div>
+                        <div class="street-content address-content hidden">
+                            <span>石桥</span>
+                            <span>下沙</span>
+                            <span>长河</span>
+                            <span>浦沿</span>
+                            <span>西兴</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">详细地址</span>
+                <input type="text" class="input1" name="detailAddress">
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">邮政编码</span>
+                <input type="text" class="input1" name="postCode">
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">姓名</span>
+                <input type="text" class="input1" name="name">
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">手机号</span>
+                <input type="text" class="input1" name="telNumber">
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">身份证号</span>
+                <input type="text" class="input1" name="idNumber">
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <span class="step2-content-ele-title">企业QQ</span>
+                <input type="text" class="input1" name="enterpriseQQ">
+                <span class="must-remark redcolor">*</span>
+            </div>
+            <div class="step2-content-ele">
+                <p class="upload-license-p">上传营业执照<span>图片1M以内的png、jpg、gif格式。</span></p>
+                <span class="must-remark redcolor float-left">*</span>
+                <div class="clear-both"></div>
+                <div class="upload-box">
+                    <div class="upload-btn">
+                        <input type="file" accept="image/jpeg,image/gif,image/png" class="hidden"/>
+                    </div>
+                    <div class="input-file-box">
+                        <input type="file" name="uploadImg" accept="image/jpeg,image/gif,image/png" onchange="change($(this))" class="hidden last-input"/>
+                    </div>
+                </div>
+            </div>
+            <div class="step2-content-ele">
+                <p class="step2-remark">如有疑问，请致电服务电话:<span class="redcolor">400-051-2525</span></p>
+            </div>
+            <button class="redback-btn1" type="submit" id="step2-submit">提交申请</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

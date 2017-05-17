@@ -1,0 +1,155 @@
+.step1-box{
+    border: 1px solid #D8D8D8;
+}
+
+.step1-box .step1-title{
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 24px;
+    color: #E60016;
+    border-bottom: 1px solid #D8D8D8;
+    font-weight: bold;
+}
+.step1-content-box{
+    padding: 20px 30px;
+}
+
+.step1-content-box .step1-content-title{
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.step1-content-box .step1-content{
+    padding: 20px 28px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.step1-content-box .step1-bottom-remark,.step1-content-box .step1-bottom-remark *{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    /*padding-left: 10px;*/
+    padding: 0px 5px;
+}
+.step2-content-box{
+    border: 1px solid #D8D8D8;
+    padding: 30px;
+}
+.step2-content-title{
+    padding: 15px 100px 0px 0px;
+    border-bottom: 3px solid #999;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.step2-content-title ,.step2-content-title span{
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.step2-content-ele{
+    padding: 10px 0px;
+    font-size: 0px;
+}
+.step2-content-ele-title{
+    display: inline-block;
+    width: 90px;
+    font-size: 16px;
+    float: left;
+    line-height: 36px;
+}
+.step2-content-ele .must-remark{
+    margin-left: 15px;
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 36px;
+}
+.step2-content-ele .step2-content-ele-hint{
+    text-indent: 110px;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #666;
+
+}
+.upload-license-p{
+    width: 392px;
+    font-size: 16px;
+    float: left;
+    line-height: 36px;
+}
+.upload-license-p span{
+    color: #999;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+
+
+.step2-remark,.step2-remark>span{
+    font-size: 16px;
+}
+.step2-remark>span{
+    padding: 0px 10px;
+}
+#step2-submit{
+    width: auto;
+    padding: 0px 25px;
+}
+
+.step3-content-box{
+    border: 1px solid #D8D8D8;
+    padding: 30px;
+}
+.step3-title-box,.step4-title-box{
+    margin: auto;
+    text-align: center;
+    color: #e60016;
+    font-size: 30px;
+}
+
+.step3-title-box>img,.step4-title-box>img{
+    height: 36px;
+    width: 36px;
+    position: relative;
+    top: 6px;
+    margin-right: 20px;
+}
+.step3-content-p{
+    line-height: 44px;
+    font-size: 20px;
+    text-align: center;
+}
+.step3-remark,.step3-remark>span{
+    font-size: 16px;
+    text-align: center;
+}
+.step3-remark>span{
+    padding: 0px 10px;
+}
+.step4-content-box{
+    border: 1px solid #D8D8D8;
+    padding: 30px;
+}
+.step4-content{
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: center;
+}
+.step4-content a{
+    color: #E60016;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.step4-content a:hover{
+    color: #E60016 !important;
+}
+.step4-content a img{
+    width: 25px;
+    height: 18px;
+    margin: 0px 5px;
+}
+
+
+

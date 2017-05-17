@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link href="/css/include.css" rel="stylesheet" type="text/css"/>
+<div class="up-shop-bar">
+    <div class="up-shop-ele">
+        <span class="up-shop-step">第一步</span>
+        确认开店条款
+    </div>
+    <div class="up-shop-ele">
+        <span class="up-shop-step">第二步</span>
+        填写开店信息
+    </div>
+    <div class="up-shop-ele">
+        <span class="up-shop-step">第三步</span>
+        开店审核
+    </div>
+    <div class="up-shop-ele none-margin">
+        <span class="up-shop-step">第死步</span>
+        开店成功
+    </div>
+</div>
+<script>
+
+    var step = @@step
+    $(".up-shop-bar .up-shop-ele").eq(step).addClass('selected');
+</script>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet"type="text/css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <link href="/css/managerfinance.css" rel="stylesheet"/>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/financeBillManager.js"></script>
+</head>
+<body>
+<div class="container float-box">
+    @@include("public/managerShopLeft.html",{"kind":"3","num":"1"})
+    <div class="right-content-box">
+        <div class="top-route-box">
+        </div>
+        <script>
+            var data = [{name:'财务管理',url:''},
+                {name:'对账单管理',url:''}
+            ];
+            initRouteBox(data,$('.top-route-box'));
+        </script>
+        <div class="finance-right-top">
+
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    买家筛选
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    欠款金额
+                </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="text">
+                    <span class="separate"></span>
+                    <input class="input2" type="text"/>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+            <button class="redback-btn3 search-order" >搜索客户</button>
+            <button class="noneback-btn1 batch-export">批量导出</button>
+        </div>
+        <div class="content-table-top">
+
+            <div class="flip-box">
+                <a>上一页</a>
+                <a>下一页</a>
+            </div>
+        </div>
+        <table class="receivable-info-table">
+            <thead>
+            <tr>
+                <th>买家</th>
+                <th>期号</th>
+                <th>号码</th>
+                <th>额度</th>
+                <th>账期</th>
+                <th>欠款</th>
+                <th>欠款金额</th>
+                <th>到期金额</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>安吉阿母工业设备有限公司吧嗒吧嗒吧嗒</td>
+                <td>20170301</td>
+                <td>15757556945</td>
+                <td>￥<span>120000.00</span></td>
+                <td>2017/03/15-2017/03/31</td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>14050.00</span></td>
+                <td>当前期</td>
+                <td><a class="noneback-red-btn" href="financeAccountReceivable.html">前去收款</a></td>
+            </tr>
+            <tr>
+                <td>安吉阿母工业设备有限公司</td>
+                <td>20170301</td>
+                <td>15757556945</td>
+                <td>￥<span>120000.00</span></td>
+                <td>2017/03/15-2017/03/31</td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>14050.00</span></td>
+                <td>当前期</td>
+                <td><a class="noneback-red-btn">前去收款</a></td>
+            </tr>
+            <tr>
+                <td>安吉阿母工业设备有限公司</td>
+                <td>20170301</td>
+                <td>15757556945</td>
+                <td>￥<span>120000.00</span></td>
+                <td>2017/03/15-2017/03/31</td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>75405.00</span></td>
+                <td>￥<span>14050.00</span></td>
+                <td>当前期</td>
+                <td><a class="noneback-red-btn">前去收款</a></td>
+            </tr>
+            </tbody>
+
+        </table>
+        <div class="account-table-bottom">
+            <div class="paging-box float-right click">
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

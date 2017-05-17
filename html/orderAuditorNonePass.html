@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet"type="text/css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <link href="/css/managerorder.css" rel="stylesheet"/>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/orderAuditorManager.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <!--这个是背景-->
+    <div class="alert-back hidden">
+        <div class="alert-box">
+
+            <div class="alert-top-title"><span>修改订单信息</span><span class="delete"></span></div>
+            <div class="alert-content change-order-alert">
+                <div class="change-order-head">
+                    <span>订单编号:20161234856</span>
+                    <span>成交时间:2016.12.31 09:33</span>
+                    <a class="order-detail-a">订单详情</a>
+                    <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                </div>
+                <p class="change-order-title">送货地址:</p>
+                <div class="change-order-ele">
+                    <div class="choice-province">
+                        <div class="choice-province-top">
+                            <span>请选择</span>
+                            <div class="choice-province-drow"></div>
+                        </div>
+                        <div class="choice-province-content hidden">
+                            <div class="choice-province-content-top">
+                                <div class="province-top-ele province active">省份</div>
+                                <div class="province-top-ele city">城市</div>
+                                <div class="province-top-ele county">县区</div>
+                                <div class="province-top-ele street">街道</div>
+                            </div>
+                            <div class="province-content address-content">
+                                <span>安徽</span>
+                                <span>北京</span>
+                                <span>重庆</span>
+                                <span>福建</span>
+                                <span>甘肃</span>
+                                <span>广东</span>
+                                <span>广西</span>
+                            </div>
+                            <div class="city-content address-content hidden">
+                                <span>杭州</span>
+                                <span>丽水</span>
+                                <span>温州</span>
+                                <span>绍兴</span>
+                                <span>湖州</span>
+                                <span>温岭</span>
+                                <span>宁波</span>
+                                <span>衢州</span>
+                                <span>义务</span>
+                                <span>金华</span>
+                            </div>
+                            <div class="county-content address-content hidden">
+                                <span>江干区</span>
+                                <span>下城区</span>
+                                <span>上城区</span>
+                                <span>西湖区</span>
+                                <span>滨江区</span>
+                                <span>萧山区</span>
+                                <span>余杭区</span>
+                                <span>拱墅区</span>
+                            </div>
+                            <div class="street-content address-content hidden">
+                                <span>石桥</span>
+                                <span>下沙</span>
+                                <span>长河</span>
+                                <span>浦沿</span>
+                                <span>西兴</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="change-order-title">订单信息:</p>
+                <div class="change-order-table">
+                    <div class="content-table-head">
+                        <div class="order-info">订单信息</div>
+                        <div class="unit-price">单价</div>
+                        <div class="number">数量</div>
+                        <div class="freight">运费</div>
+                        <div class="price-adjust">价格调整</div>
+                        <div class="order-money">订单金额</div>
+                    </div>
+                    <div class="content-table-content">
+                        <div class="content-table-ele">
+
+                            <div class="ele-content">
+                                <div class="order-product">
+                                    <div class="order-a-product">
+                                        <div class="order-info">
+                                            <img src="/img/goodsDetail.png"/>
+                                            <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                            <p class="product-SKU">SKU号:01H1L001</p>
+                                        </div>
+                                        <div class="unit-price">
+                                            <input type="number" class="input5 change-order-unit-price" value="2584.50">
+                                        </div>
+                                        <div class="number">
+                                            <div class="selected-number-box change-order-number">
+                                                <span class="selected-number-dec"></span>
+                                                <input class="selected-number-input" type="number" value="1"/>
+                                                <span class="selected-number-add"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="order-a-product">
+                                        <div class="order-info">
+                                            <img src="/img/goodsDetail.png"/>
+                                            <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                            <p class="product-SKU">SKU号:01H1L001</p>
+                                        </div>
+                                        <div class="unit-price">
+                                            <input type="number" class="input5 change-order-unit-price" value="2584.50">
+                                        </div>
+                                        <div class="number">
+                                            <div class="selected-number-box change-order-number">
+                                                <span class="selected-number-dec"></span>
+                                                <input class="selected-number-input" min="1" type="number" value="1"/>
+                                                <span class="selected-number-add"></span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="order-pub-box">
+                                    <div class="freight">
+                                        <input type="number" class="input5 change-order-freight" value="65.50">
+                                    </div>
+                                    <div class="price-adjust">
+                                        <input type="number" class="input5 change-order-adjust" value="4.50">
+                                    </div>
+                                    <div class="order-money">
+                                        <p>¥<span class="order-money-span">2750</span></p>
+                                        <p>含运费</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="change-order-operation">
+                    <button class="redback-btn2" id="change-order-save">保存</button>
+                    <button class="redback-btn2" id="change-order-cancel">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include("public/managerShopLeft.html",{"kind":"2","num":"1"})
+    <div class="order-right-content">
+        <div class="top-route-box">
+        </div>
+        <script>
+            var data = [{name:'订单管理',url:''},
+                {name:'订单审核管理',url:''},{
+                    name:'财审未通过',url:''
+                }
+            ];
+            initRouteBox(data,$('.top-route-box'));
+        </script>
+        <div class="order-right-top">
+            <div class="right-top-ele">
+                <span class="order-top-title">
+                    <div class="drop-down-box2 drop-down-box">
+                        <a>SKU号</a>
+                        <img class="drop-down-img1" src="/img/47.png">
+                        <ul class="drop-down-ul hidden">
+                            <li>SKU号</li>
+                            <li>产品名称</li>
+                        </ul>
+                    </div>
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+
+            <div class="right-top-ele">
+                <span class="order-top-title">
+                    订单时间
+                </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="text">
+                    <span class="separate"></span>
+                    <input class="input2" type="text"/>
+                </div>
+            </div>
+
+            <div class="right-top-ele">
+                <span class="order-top-title">
+                    <div class="drop-down-box2 drop-down-box">
+                        <a>客户</a>
+                        <img class="drop-down-img1" src="/img/47.png">
+                        <ul class="drop-down-ul hidden">
+                            <li>账号</li>
+                            <li>公司名称</li>
+                        </ul>
+                    </div>
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                <span class="order-top-title">
+                    订单编号
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+            <button class="redback-btn3 search-order">搜索订单</button>
+            <button class="noneback-btn1 batch-export">批量导出</button>
+        </div>
+        <div class="content-table-top">
+            <div class="table-top-selected-box">
+                <a class="selected-ele " href="orderAuditorNoneManager.html">未审核</a>
+                <a class="selected-ele active">财审未通过</a>
+                <a class="selected-ele" href="orderAuditorHadManager.html">已审核</a>
+            </div>
+            <div class="flip-box">
+                <a>上一页</a>
+                <a>下一页</a>
+            </div>
+        </div>
+        <!--这个表格显示的是未审核的-->
+        <div class="content-table-box auditor-none-manager-table">
+            <div class="content-table-head">
+                <div class="selected-order"></div>
+                <div class="order-info">订单信息</div>
+                <div class="unit-price">单价</div>
+                <div class="volume">数量</div>
+                <div class="unit">单位</div>
+                <div class="freight">运费</div>
+                <div class="price-adjust">价格调整</div>
+                <div class="order-money">订单金额</div>
+                <div class="trans-state">交易状态</div>
+            </div>
+            <div class="content-table-content">
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="selected-order">
+                            <div class="check-box-rect">
+
+                            </div>
+                        </div>
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="freight">56.00</div>
+                            <div class="price-adjust">
+                                65.00
+                            </div>
+                            <div class="order-money">
+                                <p>¥<span>2750</span></p>
+                                <p>含运费</p>
+                            </div>
+                            <div class="trans-state">
+                                <button class="redback-btn2 change-order-btn">修改订单</button>
+                                <button class="redback-btn2 auditor-btn">审核</button>
+                                <button class="redback-btn2 cancel-order">取消订单</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="selected-order">
+                            <div class="check-box-rect">
+
+                            </div>
+                        </div>
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="freight">56.00</div>
+                            <div class="price-adjust">
+                                65.00
+                            </div>
+                            <div class="order-money">
+                                <p>¥<span>2750</span></p>
+                                <p>含运费</p>
+                            </div>
+                            <div class="trans-state">
+                                <button class="redback-btn2 change-order-btn">修改订单</button>
+                                <button class="redback-btn2 auditor-btn">审核</button>
+                                <button class="redback-btn2 cancel-order">取消订单</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="selected-order">
+                            <div class="check-box-rect">
+
+                            </div>
+                        </div>
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <img src="/img/goodsDetail.png"/>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                                <div class="unit-price">2685.0</div>
+                                <div class="volume">1</div>
+                                <div class="unit">台</div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="freight">56.00</div>
+                            <div class="price-adjust">
+                                65.00
+                            </div>
+                            <div class="order-money">
+                                <p>¥<span>2750</span></p>
+                                <p>含运费</p>
+                            </div>
+                            <div class="trans-state">
+                                <button class="redback-btn2 change-order-btn">修改订单</button>
+                                <button class="redback-btn2 auditor-btn">审核</button>
+                                <button class="redback-btn2 cancel-order">取消订单</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-table-bottom">
+                <div class="order-operation-box">
+                    <div class="order-selected-all-box">
+                        <div class="check-box-rect selected-all-box">
+
+                            <label>全选</label>
+                        </div>
+                    </div>
+                    <button class="whiteback-btn1">批量审核</button>
+                </div>
+                <div class="paging-box float-right">
+
+                </div>
+            </div>
+        </div>
+
+        <!--这个显示的是审核过的表格数据-->
+
+    </div>
+</div>
+</body>
+</html>

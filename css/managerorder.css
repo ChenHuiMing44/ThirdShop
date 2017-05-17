@@ -1,0 +1,1842 @@
+.order-right-content,
+.right-content-box {
+  margin: auto;
+  margin-left: 170px;
+  position: relative;
+}
+.order-right-content .order-right-top,
+.right-content-box .order-right-top {
+  border: 1px solid #c7c7c7;
+  padding: 30px;
+  overflow: hidden;
+}
+.order-right-content .search-order,
+.right-content-box .search-order,
+.order-right-content .batch-export,
+.right-content-box .batch-export {
+  margin: 10px 20px;
+  margin-left: 0px;
+}
+.order-right-content .content-table-top,
+.right-content-box .content-table-top {
+  min-height: 60px;
+  overflow: hidden;
+  padding: 0px 30px;
+}
+.order-right-content .content-table-top .flip-box,
+.right-content-box .content-table-top .flip-box {
+  height: 30px;
+  float: right;
+  margin-top: 15px;
+}
+.order-right-content .content-table-top .flip-box a,
+.right-content-box .content-table-top .flip-box a {
+  height: 28px;
+  width: 80px;
+  margin-left: 20px;
+  line-height: 28px;
+  font-size: 14px;
+  text-align: center;
+  background: #fff;
+  color: #666;
+  border: 1px solid #666;
+  display: block;
+  float: left;
+  border-radius: 3px;
+}
+.order-right-content .content-table-top .flip-box a:active,
+.right-content-box .content-table-top .flip-box a:active {
+  background-color: #e8e7e7;
+}
+.order-right-content .content-table-top .table-top-selected-receivable,
+.right-content-box .content-table-top .table-top-selected-receivable {
+  margin-top: 15px;
+  font-size: 0px;
+  width: 260px;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .selected-receivable-ele1,
+.right-content-box .content-table-top .table-top-selected-receivable .selected-receivable-ele1 {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 20px;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .selected-receivable-ele1:active,
+.right-content-box .content-table-top .table-top-selected-receivable .selected-receivable-ele1:active {
+  color: #E60016 !important;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .selected-receivable-ele1.active,
+.right-content-box .content-table-top .table-top-selected-receivable .selected-receivable-ele1.active,
+.order-right-content .content-table-top .table-top-selected-receivable .selected-receivable-ele1.active:hover,
+.right-content-box .content-table-top .table-top-selected-receivable .selected-receivable-ele1.active:hover {
+  background-color: #E60016;
+  color: #fff !important;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box,
+.right-content-box .content-table-top .table-top-selected-receivable .not-receivable-ele-box {
+  height: 25px;
+  padding: 15px 0px 8px 0px;
+  overflow: hidden;
+  background: url("/img/1.png") no-repeat;
+  margin: auto;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2,
+.right-content-box .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2 {
+  height: 25px;
+  width: 100px;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 13px;
+  display: block;
+  float: left;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2:active,
+.right-content-box .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2:active {
+  color: #E60016 !important;
+}
+.order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2.active,
+.right-content-box .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2.active,
+.order-right-content .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2.active:hover,
+.right-content-box .content-table-top .table-top-selected-receivable .not-receivable-ele-box .selected-receivable-ele2.active:hover {
+  background-color: #E60016;
+  color: #fff !important;
+}
+.order-right-content .content-table-top .table-top-selected-box,
+.right-content-box .content-table-top .table-top-selected-box {
+  height: 30px;
+  margin-top: 15px;
+  float: left;
+  overflow: hidden;
+}
+.order-right-content .content-table-top .table-top-selected-box a,
+.right-content-box .content-table-top .table-top-selected-box a {
+  float: left;
+  height: 30px;
+  font-size: 16px;
+  display: block;
+  padding: 0px 20px;
+  margin: 0px 10px;
+  border-radius: 15px;
+  line-height: 30px;
+}
+.order-right-content .content-table-top .table-top-selected-box a.active,
+.right-content-box .content-table-top .table-top-selected-box a.active,
+.order-right-content .content-table-top .table-top-selected-box a.active:hover,
+.right-content-box .content-table-top .table-top-selected-box a.active:hover {
+  background-color: #E60016;
+  color: #fff !important;
+}
+.order-right-content .content-table-top .table-top-selected-box a:active,
+.right-content-box .content-table-top .table-top-selected-box a:active {
+  color: #E60016 !important;
+}
+.content-table-ele .ele-head > .remark.no-remark {
+  background-image: url("/img/2.png") !important;
+  color: #999 !important;
+}
+.content-table-ele .ele-head > .remark .remark-box {
+  position: absolute;
+  z-index: 888;
+  left: -50%;
+  margin-left: -35px;
+}
+.content-table-ele .ele-head > .remark .remark-box.remark-bottom {
+  padding-top: 10px;
+}
+.content-table-ele .ele-head > .remark .remark-box.remark-bottom .tooltip {
+  border-bottom-color: #D8D8D8;
+  left: 50%;
+  border-width: 0px 10px 10px;
+  margin-left: -10px;
+  top: 0px;
+}
+.content-table-ele .ele-head > .remark .remark-box .tooltip {
+  border-style: solid;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-color: transparent;
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content {
+  background-color: #D8D8D8;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  /*width: 240px;*/
+  font-size: 0px;
+  padding-top: 25px;
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content .remark-content-delete {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+  background: url("/img/67.png") no-repeat;
+  background-size: 12px 12px;
+  display: block;
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content .remark-content-delete:active {
+  background-image: url("/img/67_s.png");
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content textarea {
+  min-width: 220px;
+  min-height: 50px;
+  background-color: #D8D8D8;
+  border: 0px;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 5px 10px;
+  margin: 5px 0px;
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content textarea:focus {
+  outline: 2px solid #91B3EA;
+}
+.content-table-ele .ele-head > .remark .remark-box .remark-content .redback-btn1 {
+  height: 24px;
+  width: 64px;
+  font-size: 13px;
+  line-height: 24px;
+}
+.right-top-ele {
+  min-width: 335px;
+  padding: 10px 0px;
+  float: left;
+  margin-right: 30px;
+}
+.right-top-ele .order-top-title {
+  width: 115px;
+  min-height: 40px;
+  float: left;
+  font-size: 14px;
+  display: block;
+  line-height: 40px;
+  text-align: right;
+}
+.right-top-ele .order-top-title .drop-down-box2 {
+  text-align: left;
+  width: 111px;
+  margin-left: 0px;
+}
+.right-top-ele .order-top-title .drop-down-box2 a {
+  margin-left: 10px;
+  height: 36px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.right-top-ele .order-top-title .check-box-rect {
+  text-align: left;
+  font-size: 14px;
+  margin-right: 0px;
+}
+.right-top-ele .order-top-title .check-box-rect span,
+.right-top-ele .order-top-title .check-box-rect label {
+  margin-left: 50px;
+}
+.right-top-ele .order-top-content {
+  position: relative;
+  margin: auto;
+  margin-left: 130px;
+  min-height: 40px;
+}
+.right-top-ele .order-top-content .input2 {
+  border-radius: 5px;
+  margin-left: 0px;
+  border-color: #ccc;
+  display: inline-block;
+}
+.right-top-ele .order-top-content .separate {
+  margin: 0px 10px;
+  padding: 0px 6px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
+.right-top-ele .order-top-content .drop-down-box2 {
+  margin-left: 0px;
+}
+.right-top-ele .order-top-content.order-time-content {
+  font-size: 0px;
+}
+.right-top-ele .order-top-content.order-time-content .input2 {
+  width: 160px;
+}
+.content-table-box.all-manager-table .content-table-head,
+.content-table-box.auditor-none-manager-table .content-table-head,
+.content-table-box.auditor-had-manager-table .content-table-head {
+  height: 40px;
+  background-color: #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.content-table-box.all-manager-table .content-table-head div,
+.content-table-box.auditor-none-manager-table .content-table-head div,
+.content-table-box.auditor-had-manager-table .content-table-head div {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
+  float: left;
+}
+.content-table-box.all-manager-table .content-table-head div.order-info,
+.content-table-box.auditor-none-manager-table .content-table-head div.order-info,
+.content-table-box.auditor-had-manager-table .content-table-head div.order-info {
+  width: 220px;
+}
+.content-table-box.all-manager-table .content-table-head div.unit-price,
+.content-table-box.auditor-none-manager-table .content-table-head div.unit-price,
+.content-table-box.auditor-had-manager-table .content-table-head div.unit-price,
+.content-table-box.all-manager-table .content-table-head div.volume,
+.content-table-box.auditor-none-manager-table .content-table-head div.volume,
+.content-table-box.auditor-had-manager-table .content-table-head div.volume,
+.content-table-box.all-manager-table .content-table-head div.unit,
+.content-table-box.auditor-none-manager-table .content-table-head div.unit,
+.content-table-box.auditor-had-manager-table .content-table-head div.unit,
+.content-table-box.all-manager-table .content-table-head div.freight,
+.content-table-box.auditor-none-manager-table .content-table-head div.freight,
+.content-table-box.auditor-had-manager-table .content-table-head div.freight {
+  width: 90px;
+}
+.content-table-box.all-manager-table .content-table-head div.order-money,
+.content-table-box.auditor-none-manager-table .content-table-head div.order-money,
+.content-table-box.auditor-had-manager-table .content-table-head div.order-money,
+.content-table-box.all-manager-table .content-table-head div.price-adjust,
+.content-table-box.auditor-none-manager-table .content-table-head div.price-adjust,
+.content-table-box.auditor-had-manager-table .content-table-head div.price-adjust,
+.content-table-box.all-manager-table .content-table-head div.trans-state,
+.content-table-box.auditor-none-manager-table .content-table-head div.trans-state,
+.content-table-box.auditor-had-manager-table .content-table-head div.trans-state {
+  width: 134px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele {
+  border-left: 1px solid #e1e0df;
+  border-bottom: 1px solid #e1e0df;
+  border-right: 1px solid #e1e0df;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head {
+  padding: 10px 8px;
+  height: 19px;
+  line-height: 19px;
+  background-color: #FAFAFA;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > a,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > a,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > a {
+  margin-right: 25px;
+  font-size: 14px;
+  float: left;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > .remark,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > .remark,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > .remark {
+  background: url("/img/463.png") no-repeat 10px;
+  background-size: 16px 16px;
+  padding-left: 30px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-name,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-name,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-name {
+  display: block;
+  max-width: 220px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding-left: 24px;
+  background: url("/img/658.png") no-repeat 0px 2px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
+  padding-left: 20px;
+  background: url("/img/4.png") no-repeat 0px 2px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a {
+  font-size: 14px;
+  color: #e60016;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content {
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+  padding: 10px 0px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content > div,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content > div,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content > div {
+  float: left;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product {
+  overflow: hidden;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div {
+  float: left;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-info {
+  width: 220px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.freight {
+  width: 90px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust {
+  width: 134px;
+  position: relative;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-info {
+  padding: 20px 0px;
+  height: 60px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-info img,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-info img,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-info img {
+  float: left;
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name {
+  font-size: 12px;
+  margin-left: 80px;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU {
+  margin-left: 80px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #e60016;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-money {
+  padding: 30px 0px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p span,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p span,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-money > p span {
+  color: #e60016;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.trans-state p,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.trans-state p,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.trans-state p {
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  right: 0px;
+}
+.content-table-box.all-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box div,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box div,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box div {
+  float: left;
+}
+.content-table-box.all-manager-table .content-table-bottom,
+.content-table-box.auditor-none-manager-table .content-table-bottom,
+.content-table-box.auditor-had-manager-table .content-table-bottom {
+  height: 64px;
+  padding: 0px 30px;
+  margin: auto;
+  background-color: #e6e6e6;
+}
+.content-table-box.all-manager-table .content-table-bottom .paging-box,
+.content-table-box.auditor-none-manager-table .content-table-bottom .paging-box,
+.content-table-box.auditor-had-manager-table .content-table-bottom .paging-box {
+  position: relative;
+  top: 17px;
+  margin-right: 0px;
+}
+.content-table-box.all-manager-table .content-table-bottom .order-operation-box,
+.content-table-box.auditor-none-manager-table .content-table-bottom .order-operation-box,
+.content-table-box.auditor-had-manager-table .content-table-bottom .order-operation-box {
+  float: left;
+  padding: 13px 0px;
+}
+.content-table-box.all-manager-table .content-table-bottom .order-operation-box .order-selected-all-box,
+.content-table-box.auditor-none-manager-table .content-table-bottom .order-operation-box .order-selected-all-box,
+.content-table-box.auditor-had-manager-table .content-table-bottom .order-operation-box .order-selected-all-box {
+  border: 1px #c7c7c7 solid;
+  float: left;
+  background-color: #fff;
+}
+.content-table-box.all-manager-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > *,
+.content-table-box.auditor-none-manager-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > *,
+.content-table-box.auditor-had-manager-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > * {
+  font-size: 16px;
+}
+.content-table-box.all-manager-table .content-table-bottom .order-operation-box .whiteback-btn1,
+.content-table-box.auditor-none-manager-table .content-table-bottom .order-operation-box .whiteback-btn1,
+.content-table-box.auditor-had-manager-table .content-table-bottom .order-operation-box .whiteback-btn1 {
+  float: left;
+  margin-left: 30px;
+}
+.content-table-box.auditor-had-manager-table .content-table-head div.order-money,
+.content-table-box.auditor-had-manager-table .content-table-head div.price-adjust,
+.content-table-box.auditor-had-manager-table .content-table-head div.trans-state {
+  width: 124px;
+}
+.content-table-box.auditor-had-manager-table .content-table-head div.unit-price,
+.content-table-box.auditor-had-manager-table .content-table-head div.volume,
+.content-table-box.auditor-had-manager-table .content-table-head div.unit,
+.content-table-box.auditor-had-manager-table .content-table-head div.freight {
+  width: 75px;
+}
+.content-table-box.auditor-had-manager-table .content-table-head div.auditor-time {
+  width: 90px;
+}
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.trans-state {
+  width: 124px;
+}
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.freight {
+  width: 75px;
+}
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.auditor-time {
+  width: 90px;
+}
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.auditor-time p {
+  line-height: 20px;
+  text-align: center;
+}
+.content-table-box.auditor-had-manager-table .content-table-content .content-table-ele .ele-content div.auditor-time p.date-p {
+  margin-top: 30px;
+}
+.content-table-box.auditor-none-manager-table .content-table-head div.selected-order {
+  width: 30px;
+}
+.content-table-box.auditor-none-manager-table .content-table-head div.order-money,
+.content-table-box.auditor-none-manager-table .content-table-head div.price-adjust,
+.content-table-box.auditor-none-manager-table .content-table-head div.trans-state {
+  width: 124px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.selected-order {
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.selected-order * {
+  margin: 0px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.selected-order .check-box-rect {
+  margin: 32px 5px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-product {
+  margin-left: 30px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.trans-state {
+  padding: 2px 0px;
+  text-align: center;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.trans-state button.redback-btn2 {
+  width: 80px;
+  padding: 0px;
+  height: 26px;
+  margin: 3px 0px;
+  line-height: 26px;
+}
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.auditor-none-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust {
+  width: 124px;
+  position: relative;
+}
+.content-table-box.receiv-table .content-table-head,
+.content-table-box.receiv-no-due-table .content-table-head {
+  height: 40px;
+  background-color: #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.content-table-box.receiv-table .content-table-head div,
+.content-table-box.receiv-no-due-table .content-table-head div {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
+  float: left;
+  width: 90px;
+}
+.content-table-box.receiv-table .content-table-head div.order-info,
+.content-table-box.receiv-no-due-table .content-table-head div.order-info {
+  width: 220px;
+}
+.content-table-box.receiv-table .content-table-head div.account-fate,
+.content-table-box.receiv-no-due-table .content-table-head div.account-fate,
+.content-table-box.receiv-table .content-table-head div.receiv-time,
+.content-table-box.receiv-no-due-table .content-table-head div.receiv-time,
+.content-table-box.receiv-table .content-table-head div.overdue-time,
+.content-table-box.receiv-no-due-table .content-table-head div.overdue-time {
+  width: 132px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele {
+  border-left: 1px solid #e1e0df;
+  border-bottom: 1px solid #e1e0df;
+  border-right: 1px solid #e1e0df;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head {
+  padding: 10px 8px;
+  height: 19px;
+  line-height: 19px;
+  background-color: #FAFAFA;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > a,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > a {
+  margin-right: 25px;
+  font-size: 14px;
+  float: left;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > .remark,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > .remark {
+  background: url("/img/463.png") no-repeat 10px;
+  background-size: 16px 16px;
+  padding-left: 30px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > span.buyer-name,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > span.buyer-name {
+  display: block;
+  max-width: 220px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding-left: 24px;
+  background: url("/img/658.png") no-repeat 0px 2px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
+  padding-left: 20px;
+  background: url("/img/4.png") no-repeat 0px 2px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-head > a.order-detail-a {
+  font-size: 14px;
+  color: #e60016;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content {
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+  padding: 10px 0px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product {
+  overflow: hidden;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div {
+  float: left;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content .order-pub-box,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content .order-pub-box {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -50px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content .order-pub-box > div,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content .order-pub-box > div {
+  float: left;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-info {
+  width: 220px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.account-fate,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.account-fate,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.receiv-time,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.receiv-time,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.overdue-time,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.overdue-time {
+  width: 132px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.repayment-amount,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.repayment-amount,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.amount-owed,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.amount-owed,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.number,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.number,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.volume {
+  width: 90px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-info {
+  padding: 20px 0px;
+  height: 60px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-info img,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-info img {
+  float: left;
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name {
+  font-size: 12px;
+  margin-left: 80px;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU {
+  margin-left: 80px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.repayment-amount,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.repayment-amount,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.amount-owed,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.amount-owed,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.account-fate,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.account-fate,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.number,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.number,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.volume {
+  line-height: 100px;
+  text-align: center;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit-price span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit-price span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.repayment-amount span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.repayment-amount span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.amount-owed span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.amount-owed span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.price-adjust span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.price-adjust span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.account-fate span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.account-fate span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.freight span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.freight span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.unit span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.unit span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.number span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.number span,
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.volume span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.volume span {
+  color: #E60016;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-money {
+  padding: 30px 0px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-money p,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-money p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.order-money p span,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.order-money p span {
+  color: #E60016;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.receiv-time,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.receiv-time {
+  padding: 30px 0px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.receiv-time p,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.receiv-time p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.trans-state {
+  padding: 10px 0px;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.trans-state p,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.trans-state p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.content-table-box.receiv-table .content-table-content .content-table-ele .ele-content div.overdue-time,
+.content-table-box.receiv-no-due-table .content-table-content .content-table-ele .ele-content div.overdue-time {
+  line-height: 100px;
+  text-align: center;
+}
+.content-table-box.receiv-table .content-table-bottom,
+.content-table-box.receiv-no-due-table .content-table-bottom {
+  height: 64px;
+  padding: 0px 30px;
+  margin: auto;
+  background-color: #e6e6e6;
+}
+.content-table-box.receiv-table .content-table-bottom .paging-box,
+.content-table-box.receiv-no-due-table .content-table-bottom .paging-box {
+  position: relative;
+  top: 17px;
+  margin-right: 0px;
+}
+.content-table-box.receiv-table .content-table-bottom .order-operation-box,
+.content-table-box.receiv-no-due-table .content-table-bottom .order-operation-box {
+  float: left;
+  padding: 13px 0px;
+}
+.content-table-box.receiv-table .content-table-bottom .order-operation-box .order-selected-all-box,
+.content-table-box.receiv-no-due-table .content-table-bottom .order-operation-box .order-selected-all-box {
+  border: 1px #c7c7c7 solid;
+  float: left;
+  background-color: #fff;
+}
+.content-table-box.receiv-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > *,
+.content-table-box.receiv-no-due-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > * {
+  font-size: 16px;
+}
+.content-table-box.receiv-table .content-table-bottom .order-operation-box .whiteback-btn1,
+.content-table-box.receiv-no-due-table .content-table-bottom .order-operation-box .whiteback-btn1 {
+  float: left;
+  margin-left: 30px;
+}
+.content-table-box.ship-no-manager-table .content-table-head,
+.content-table-box.ship-manager-table .content-table-head {
+  height: 40px;
+  background-color: #E6E6E6;
+  border-left: 1px solid #E6E6E6;
+  border-right: 1px solid #e6e6e6;
+}
+.content-table-box.ship-no-manager-table .content-table-head > div,
+.content-table-box.ship-manager-table .content-table-head > div {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+}
+.content-table-box.ship-no-manager-table .content-table-head div.order-info,
+.content-table-box.ship-manager-table .content-table-head div.order-info {
+  width: 222px;
+}
+.content-table-box.ship-no-manager-table .content-table-head div.price-adjust,
+.content-table-box.ship-manager-table .content-table-head div.price-adjust,
+.content-table-box.ship-no-manager-table .content-table-head div.order-money,
+.content-table-box.ship-manager-table .content-table-head div.order-money,
+.content-table-box.ship-no-manager-table .content-table-head div.order-status,
+.content-table-box.ship-manager-table .content-table-head div.order-status {
+  width: 120px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele {
+  border-left: 1px solid #e1e0df;
+  border-bottom: 1px solid #e1e0df;
+  border-right: 1px solid #e1e0df;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head {
+  padding: 10px 8px;
+  height: 19px;
+  line-height: 19px;
+  background-color: #FAFAFA;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > span,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > a,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > a {
+  margin-right: 25px;
+  font-size: 14px;
+  float: left;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > .remark,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > .remark {
+  background: url("/img/463.png") no-repeat 10px;
+  background-size: 16px 16px;
+  padding-left: 30px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-name,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-name {
+  display: block;
+  max-width: 220px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding-left: 24px;
+  background: url("/img/658.png") no-repeat 0px 2px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > span.buyer-tel {
+  padding-left: 20px;
+  background: url("/img/4.png") no-repeat 0px 2px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-head > a.order-detail-a {
+  font-size: 14px;
+  color: #e60016;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content {
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+  padding: 10px 0px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content > div,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content > div {
+  float: left;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product {
+  overflow: hidden;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product > div {
+  float: left;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-pub-box {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -50px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-info {
+  width: 222px;
+  float: left;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.freight {
+  float: left;
+  width: 100px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-status,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-status {
+  width: 120px;
+  float: left;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-info,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-info {
+  padding: 20px 0px;
+  height: 60px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-info img,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-info img {
+  float: left;
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-name {
+  font-size: 12px;
+  margin-left: 80px;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-info > p.product-SKU {
+  margin-left: 80px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.freight,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust {
+  text-align: center;
+  font-size: 16px;
+  line-height: 100px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit-price span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit-price span,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.volume span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.volume span,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.unit span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit span,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.freight span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.freight span,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust span {
+  font-size: 16px;
+  color: #E60016;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-money {
+  padding: 30px 0px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-money p,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-money p {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-money p span,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-money p span {
+  color: #E60016;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-status,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-status {
+  padding: 35px 0px;
+}
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-status button,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-status button,
+.content-table-box.ship-no-manager-table .content-table-content .content-table-ele .ele-content div.order-status a,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-status a {
+  display: inline-block;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+  width: 80px;
+  margin-left: 20px;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom,
+.content-table-box.ship-manager-table .content-table-bottom {
+  height: 64px;
+  padding: 0px 30px;
+  margin: auto;
+  background-color: #e6e6e6;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom .paging-box,
+.content-table-box.ship-manager-table .content-table-bottom .paging-box {
+  position: relative;
+  top: 17px;
+  margin-right: 0px;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom .order-operation-box,
+.content-table-box.ship-manager-table .content-table-bottom .order-operation-box {
+  float: left;
+  padding: 13px 0px;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom .order-operation-box .order-selected-all-box,
+.content-table-box.ship-manager-table .content-table-bottom .order-operation-box .order-selected-all-box {
+  border: 1px #c7c7c7 solid;
+  float: left;
+  background-color: #fff;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > *,
+.content-table-box.ship-manager-table .content-table-bottom .order-operation-box .order-selected-all-box .check-box-rect > * {
+  font-size: 16px;
+}
+.content-table-box.ship-no-manager-table .content-table-bottom .order-operation-box .whiteback-btn1,
+.content-table-box.ship-manager-table .content-table-bottom .order-operation-box .whiteback-btn1 {
+  float: left;
+  margin-left: 30px;
+}
+.content-table-box.ship-manager-table .content-table-head > div {
+  width: 80px;
+}
+.content-table-box.ship-manager-table .content-table-head div.price-adjust,
+.content-table-box.ship-manager-table .content-table-head div.order-money,
+.content-table-box.ship-manager-table .content-table-head div.trans-state {
+  width: 110px;
+}
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.volume,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.unit,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.freight {
+  width: 80px;
+  float: left;
+}
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.order-money,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.trans-state,
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.ship-state {
+  width: 110px;
+  float: left;
+}
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.trans-state {
+  padding: 10px 0px;
+}
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.trans-state p {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.content-table-box.ship-manager-table .content-table-content .content-table-ele .ele-content div.ship-state {
+  text-align: center;
+  line-height: 100px;
+}
+.report-table-time {
+  padding: 0px 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.report-order-info {
+  padding: 20px 30px;
+  border: 1px solid #ddd;
+}
+.report-order-info p {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.report-btn-box {
+  padding: 20px 30px;
+}
+.report-btn-box button.noneback-btn1 {
+  font-size: 15px;
+  padding: 2px 8px;
+  margin-right: 30px;
+}
+.transaction-state-box {
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  padding: 0px 20px;
+  background-color: #E6E6E6;
+}
+.consignee-info-box {
+  margin: 10px 0px;
+}
+.consignee-info-box .consignee-info-title {
+  line-height: 35px;
+  height: 35px;
+  font-size: 16px;
+  background-color: #E6E6E6;
+  padding: 0px 20px;
+}
+.consignee-info-box .consignee-info-div {
+  padding: 10px 20px;
+  height: 120px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.consignee-info-box .consignee-info-div > div {
+  float: left;
+  margin-right: 20px;
+}
+.consignee-info-box .consignee-info-div > div.info-div {
+  width: 340px;
+}
+.consignee-info-box .consignee-info-div > div.info-div p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.consignee-info-box .consignee-info-div > div.seller-remark-box,
+.consignee-info-box .consignee-info-div > div.buyer-remark-box {
+  width: 350px;
+}
+.consignee-info-box .consignee-info-div > div.seller-remark-box .remark-title,
+.consignee-info-box .consignee-info-div > div.buyer-remark-box .remark-title {
+  float: left;
+  text-align: right;
+  font-size: 14px;
+  width: 70px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.consignee-info-box .consignee-info-div > div.seller-remark-box .remark-div,
+.consignee-info-box .consignee-info-div > div.buyer-remark-box .remark-div,
+.consignee-info-box .consignee-info-div > div.seller-remark-box .buyer-remark,
+.consignee-info-box .consignee-info-div > div.buyer-remark-box .buyer-remark {
+  height: 100px;
+  overflow: auto;
+  margin-left: 80px;
+  width: 250px;
+  display: block;
+  position: relative;
+  max-width: 270px;
+  max-height: 120px;
+  padding: 10px 10px;
+  background-color: #F3F3F3;
+  line-height: 20px;
+  font-size: 14px;
+}
+.detail-order-table {
+  border-bottom: #e6e6e6 8px solid;
+}
+.detail-order-table .order-table-head {
+  height: 40px;
+  background-color: #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.detail-order-table .order-table-head > div {
+  float: left;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+.detail-order-table .order-table-head > div.order-info {
+  width: 292px;
+}
+.detail-order-table .order-table-head > div.unit-price,
+.detail-order-table .order-table-head > div.product-number,
+.detail-order-table .order-table-head > div.product-unit,
+.detail-order-table .order-table-head > div.freight {
+  width: 70px;
+}
+.detail-order-table .order-table-head > div.actual-unit-price,
+.detail-order-table .order-table-head > div.actual-order-money,
+.detail-order-table .order-table-head > div.order-money,
+.detail-order-table .order-table-head > div.buyer {
+  width: 145px;
+}
+.detail-order-table .order-table-content {
+  overflow: hidden;
+  padding: 15px 0px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+.detail-order-table .order-table-content .order-info {
+  width: 292px;
+  height: 110px;
+}
+.detail-order-table .order-table-content .unit-price,
+.detail-order-table .order-table-content .product-number,
+.detail-order-table .order-table-content .product-unit,
+.detail-order-table .order-table-content .freight {
+  width: 70px;
+  height: 110px;
+}
+.detail-order-table .order-table-content .actual-unit-price,
+.detail-order-table .order-table-content .actual-order-money,
+.detail-order-table .order-table-content .order-money,
+.detail-order-table .order-table-content .buyer {
+  width: 145px;
+  height: 110px;
+}
+.detail-order-table .order-table-content > div {
+  float: left;
+}
+.detail-order-table .order-table-content .products-info .product-info {
+  height: 110px;
+  overflow: hidden;
+}
+.detail-order-table .order-table-content .products-info .product-info > div {
+  float: left;
+}
+.detail-order-table .order-table-content .order-pub-box {
+  position: absolute;
+  right: 0px;
+  height: 110px;
+  top: 50%;
+  margin-top: -55px;
+}
+.detail-order-table .order-table-content .order-pub-box > div {
+  float: left;
+}
+.detail-order-table .order-table-content div.unit-price,
+.detail-order-table .order-table-content div.actual-unit-price,
+.detail-order-table .order-table-content div.product-number,
+.detail-order-table .order-table-content div.product-unit,
+.detail-order-table .order-table-content div.freight {
+  line-height: 110px;
+  text-align: center;
+  color: #E60016;
+}
+.detail-order-table .order-table-content div.order-money p,
+.detail-order-table .order-table-content div.actual-order-money p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.detail-order-table .order-table-content div.order-money p span,
+.detail-order-table .order-table-content div.actual-order-money p span {
+  color: #E60016;
+}
+.detail-order-table .order-table-content div.order-money p.order-money-p,
+.detail-order-table .order-table-content div.actual-order-money p.order-money-p,
+.detail-order-table .order-table-content div.order-money p.actual-order-money-p,
+.detail-order-table .order-table-content div.actual-order-money p.actual-order-money-p {
+  margin-top: 35px;
+}
+.detail-order-table .order-table-content div.buyer {
+  position: relative;
+}
+.detail-order-table .order-table-content div.buyer div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  transform: translate(0%, -50%);
+}
+.detail-order-table .order-table-content div.order-info img {
+  height: 100px;
+  width: 90px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.detail-order-table .order-table-content div.order-info p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 22px;
+  height: 22px;
+  margin-left: 120px;
+}
+.detail-order-table .order-table-content div.order-info p.order-info-name {
+  margin-top: 33px;
+}
+.ship-record-box {
+  margin: 15px 0px;
+}
+.ship-record-box .record-ship-title {
+  height: 40px;
+  line-height: 40px;
+  text-indent: 20px;
+  font-size: 16px;
+}
+.ship-record-box .ship-record-table {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #eb9596;
+  border-bottom: none;
+}
+.ship-record-box .ship-record-table .ship-number span.noship-number {
+  color: #e60016;
+  font-size: 16px;
+  font-weight: 600;
+}
+.ship-record-box .ship-record-table .ship-number span.ship-number {
+  color: #e60016;
+  font-size: 16px;
+  font-weight: 600;
+}
+.ship-record-box .ship-record-table thead tr {
+  line-height: 40px;
+  height: 40px;
+  background-color: #eb9596;
+}
+.ship-record-box .ship-record-table tbody tr {
+  border-bottom: 1px solid #eb9596;
+}
+.ship-record-box .ship-record-table tbody tr td {
+  padding: 6px 0px;
+  vertical-align: middle;
+  min-height: 100px;
+}
+.order-detail-model {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.order-detail-model .model-title {
+  height: 40px;
+  line-height: 40px;
+  text-indent: 20px;
+  font-size: 16px;
+}
+.order-detail-model .model-content {
+  border: 1px solid #ddd;
+  background-color: #F3F3F3;
+  padding: 20px 0px 20px 40px;
+  min-height: 120px;
+}
+.order-detail-model .model-content.auditor-box p,
+.order-detail-model .model-content.shipment-box p,
+.order-detail-model .model-content.billing-box p,
+.order-detail-model .model-content.refund-box p {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.order-detail-model .model-content.receivables-box * {
+  font-size: 16px;
+}
+.order-detail-model .model-content.receivables-box > p {
+  line-height: 28px;
+  height: 28px;
+}
+.order-detail-model .model-content.receivables-box > table {
+  text-align: center;
+  border-collapse: collapse;
+}
+.order-detail-model .model-content.receivables-box > table th,
+.order-detail-model .model-content.receivables-box > table td {
+  min-width: 180px;
+  border: 1px solid #c7c7c7;
+  line-height: 40px;
+}
+.order-detail-model .model-content.receivables-box > table tr {
+  height: 40px;
+}
+.change-order-alert.alert-content {
+  width: 808px;
+}
+.change-order-alert.alert-content .change-order-title {
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
+}
+.change-order-alert.alert-content .change-order-head {
+  padding: 10px 8px;
+  height: 24px;
+  line-height: 24px;
+  background-color: #FAFAFA;
+}
+.change-order-alert.alert-content .change-order-head > span,
+.change-order-alert.alert-content .change-order-head > a {
+  margin-right: 40px;
+  font-size: 16px;
+  float: left;
+}
+.change-order-alert.alert-content .change-order-head > .remark {
+  background: url("/img/463.png") no-repeat 10px;
+  padding-left: 40px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.change-order-alert.alert-content .change-order-head > span.buyer-name {
+  display: block;
+  max-width: 240px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding-left: 30px;
+  background: url("/img/658.png") no-repeat 0px 2px;
+}
+.change-order-alert.alert-content .change-order-head > a.order-detail-a {
+  font-size: 14px;
+  color: #e60016;
+}
+.change-order-alert.alert-content .change-order-tab-box {
+  height: 40px;
+  background-color: #e6e6e6;
+  margin: 10px 0px;
+}
+.change-order-alert.alert-content .change-order-tab-box .tab-ele {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.change-order-alert.alert-content .change-order-tab-box .tab-ele.active {
+  background-color: #E60016;
+  color: #fff;
+}
+.change-order-alert.alert-content .change-order-table .content-table-head {
+  background-color: #F6F6F6;
+  height: 40px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-head > div {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 16px;
+  width: 97px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-head div.order-info {
+  width: 218px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content {
+  float: left;
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-info {
+  width: 218px;
+  height: 100px;
+  float: left;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content div.unit-price,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content div.number,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content div.freight,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content div.price-adjust,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content div.order-money,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .pay-type {
+  width: 97px;
+  float: left;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-product {
+  float: left;
+  overflow: hidden;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-product .order-a-product {
+  overflow: hidden;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-pub-box {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -50px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-info > img {
+  height: 80px;
+  width: 70px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-info p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 22px;
+  height: 22px;
+  margin-left: 90px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-info p.product-name {
+  margin-top: 28px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .unit-price,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .freight,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .price-adjust {
+  height: 100px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .unit-price .input5,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .freight .input5,
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .price-adjust .input5 {
+  position: relative;
+  top: 35px;
+  padding: 4px 5px;
+  width: 76px;
+  left: 5px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .number {
+  height: 100px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .number .change-order-number {
+  margin-top: 36px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .number .change-order-number span {
+  height: 28px;
+  width: 28px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .number .change-order-number input {
+  height: 28px;
+  width: 38px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .pay-type {
+  position: relative;
+  height: 100px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .pay-type .drop-down-box {
+  width: 86px;
+  margin-left: 5px;
+  top: 35px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .pay-type .drop-down-box a {
+  margin-left: 5px;
+  font-size: 13px;
+  height: 28px;
+  line-height: 28px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .pay-type .drop-down-box li {
+  text-indent: 10px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-money {
+  height: 40px;
+  padding: 30px 0px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-money p {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.change-order-alert.alert-content .change-order-table .content-table-content .content-table-ele .ele-content .order-money p .order-money-span {
+  color: #E60016;
+}
+.change-order-alert.alert-content .change-order-ele {
+  padding: 10px 60px;
+}
+.change-order-alert.alert-content .change-order-operation {
+  padding: 20px 0px;
+}
+.change-order-alert.alert-content .change-order-operation .redback-btn2#change-order-cancel {
+  margin-left: 30px;
+}
+.change-send-ele {
+  height: 36px;
+  padding: 10px 0px;
+}
+.change-send-ele .change-send-title {
+  height: 36px;
+  width: 90px;
+  float: left;
+  line-height: 36px;
+}
+.order-ship-content {
+  padding: 10px 30px;
+}
+.order-ship-content .order-ship-ele-title {
+  float: left;
+  width: 95px;
+  height: 36px;
+  line-height: 36px;
+}
+.order-ship-content .order-send-info,
+.order-ship-content .order-since-info {
+  padding: 10px;
+}
+.order-ship-content .order-send-info .order-send-ele,
+.order-ship-content .order-since-info .order-send-ele {
+  padding: 10px 0px;
+  min-height: 36px;
+}
+.order-ship-content .order-send-info .order-send-ele .input1.small,
+.order-ship-content .order-since-info .order-send-ele .input1.small {
+  width: 190px;
+}
+.order-ship-content .order-send-info .order-send-ele .send-ele-remark,
+.order-ship-content .order-since-info .order-send-ele .send-ele-remark {
+  margin-left: 10px;
+  line-height: 36px;
+  font-size: 13px;
+  color: #82726c;
+}
+.order-ship-content .send-record-box {
+  padding: 10px 0px;
+  border-top: 1px solid #E7E7E7;
+}
+.order-ship-content .send-record-box .send-record-p {
+  font-size: 17px;
+  line-height: 30px;
+}
+.order-ship-content .send-record-box .send-record-content {
+  padding: 5px 20px;
+}
+.order-ship-content .send-record-box .send-record-content > .order-info {
+  padding: 5px 0px;
+  background-color: #FAFAFA;
+}
+.order-ship-content .send-record-box .send-record-content > .order-info span,
+.order-ship-content .send-record-box .send-record-content > .order-info a {
+  margin-right: 20px;
+  font-size: 14px;
+}
+.order-ship-content .send-record-box .send-record-content > .order-info span.buyer-name,
+.order-ship-content .send-record-box .send-record-content > .order-info a.buyer-name {
+  padding-left: 20px;
+  background: url("/img/658.png") no-repeat 0px 2px;
+  background-size: 18px 18px;
+}
+.order-ship-content .send-record-box .send-record-content > .order-info span.buyer-tel,
+.order-ship-content .send-record-box .send-record-content > .order-info a.buyer-tel {
+  padding-left: 20px;
+  background: url("/img/4.png") no-repeat 0px 2px;
+  background-size: 18px 18px;
+}
+.order-ship-table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 884px;
+}
+.order-ship-table thead tr {
+  background-color: #e6e6e6;
+  border-width: 0px 1px;
+  border-color: #e6e6e6;
+  border-style: solid;
+  height: 40px;
+  line-height: 40px;
+}
+.order-ship-table td {
+  vertical-align: middle;
+}
+.order-ship-table td.order-info {
+  position: relative;
+  width: 270px;
+  text-align: left;
+}
+.order-ship-table td.order-info img {
+  height: 68px;
+  width: 68px;
+  margin-left: 10px;
+  margin-right: 6px;
+  position: relative;
+}
+.order-ship-table td.order-info .product-name-info {
+  position: absolute;
+  width: 185px;
+  top: 50%;
+  left: 82px;
+  margin-top: -21px;
+}
+.order-ship-table td.order-info .product-name-info p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.order-ship-table td.unit-price,
+.order-ship-table td.number,
+.order-ship-table td.unit,
+.order-ship-table td.send-number {
+  min-width: 60px;
+  max-width: 150px;
+}
+.order-ship-table td.unit-price > span,
+.order-ship-table td.number > span,
+.order-ship-table td.unit > span,
+.order-ship-table td.send-number > span {
+  color: #E60016;
+}
+.order-ship-table tbody tr {
+  height: 112px;
+  border: 1px solid #e1e0df;
+  border-top: 0px;
+}

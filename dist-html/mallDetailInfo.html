@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="/css/managerShop.css" type="text/css" rel="stylesheet">
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/mallDetailInfo.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container float-box">
+    <!DOCTYPE html>
+<link href="/css/include.css" type="text/css" rel="stylesheet"/>
+<div class="userinfo-box">
+
+</div>
+<script>
+    var navData =[
+        {
+            title:'店铺管理',
+            content:[
+                {
+                    name:"店铺信息",
+                    url:"mallDetailInfo.html"
+                }
+            ]
+        },{
+            title:'产品管理',
+            content:[
+                {
+                    name:'阿母厂库',
+                    url:'productWarehouse.html'
+                },{
+                   name:'店铺产品',
+                   url:'mineProduct.html'
+                }
+            ]
+        },{
+            title:'订单管理',
+            content:[
+                {
+                    name:'订单总表管理',
+                    url:'orderAllManager.html'
+                },{
+                    name:'订单审核管理',
+                    url:'orderAuditorNoneManager.html'
+                },{
+                    name:'订单收款管理',
+                    url:'orderReceivNoneManager.html'
+                },{
+                    name:'订单出运管理',
+                    url:'orderNoShipManager.html'
+                }
+            ]
+        },{
+            title:'财务管理',
+            content:[
+                {
+                    name:'货款管理',
+                    url:'financeNoReceivable.html'
+                },{
+                    name:'对账单管理',
+                    url:'financeBillManager.html'
+                },{
+                    name:'账期管理',
+                    url:'financeAccountManager.html'
+                },{
+                    name:'发票管理',
+                    url:'financeInvoiceManager.html'
+                }
+            ]
+        },{
+            title:'客户管理',
+            content:[
+                {
+                    name:'客户订单管理',
+                    url:''
+                },{
+                    name:'客户产品清单',
+                    url:''
+                }
+            ]
+        }
+    ]
+
+    $(function(){
+
+        var kind = 0
+        var num = 0
+        function initLeftNav(navData){
+            var titleUlNode = $("<ul></ul>");
+            $.each(navData, function(ki,value) {
+                var titleLiNode = $("<li></li>");
+                var titleSpanNode = $("<span></span>").addClass("userinfo-title-span").html(value.title);
+                var eleUlNode = $("<ul></ul>");
+                var content = value.content;
+
+                $.each(content,function(nu,value1){
+                    var eleLiNode = $("<li></li>").addClass("userinfo-ele-li");
+                    var eleANode = $("<a></a>").addClass("displaya").html(value1.name).attr("href",value1.url);
+                    if(ki==kind&&nu==num){
+                        eleANode.addClass("selected");
+                        eleANode.attr("href","");
+                    }
+                    eleLiNode.append(eleANode);
+                    eleUlNode.append(eleLiNode);
+                })
+                titleLiNode.append(titleSpanNode);
+                titleLiNode.append(eleUlNode);
+                titleUlNode.append(titleLiNode);
+            });
+            $(".userinfo-box").append(titleUlNode);
+        }
+        initLeftNav(navData);
+    })
+</script>
+
+
+
+
+
+
+    <div class="right-content-box">
+        <div class="shop-accountborder-content">
+        <div class="shop-info-content ">
+            <button class="redback-btn1 shop-edit-btn">编辑</button>
+            <p class="shop-info-p"><span class="shop-info-title">店铺名称:</span>怡然清洁家居店</p>
+            <p class="shop-info-p"><span class="shop-info-title">营业状态:</span>正在营业</p>
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺标志</p>
+                <img class="shop-logo" src="/img/shop-small-img.png"/>
+            </div>
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺Banner</p>
+                <img class="shop-back-img" src="/img/shop-top-back.jpg"/>
+            </div>
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺图片</p>
+                <img class="shop-content-img" src="/img/malltop.png"/>
+            </div>
+
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺简介</p>
+                <div class="shop-intro-box">
+                    本店经营清洁用品, 拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。
+                </div>
+            </div>
+            <p class="shop-info-p"><span class="shop-info-title">经营地址:</span>浙江省杭州市下城区东新路</p>
+            <p class="shop-info-p"><span class="shop-info-title">详细地址:</span>未输入详细地址</p>
+            <p class="shop-info-p"><span class="shop-info-title">主要货源:</span>自己生产</p>
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺介绍</p>
+                <div class="shop-intro-box">
+                    本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。
+                </div>
+            </div>
+        </div>
+
+
+        <div class="shop-info-edit hidden">
+            <div class="shop-info-div">
+                <p class="shop-info-p">营业状态</p>
+                <div class="radio-round-box">
+                    <div class="radio-box active">
+                        <label>营业</label>
+                    </div>
+                    <div class="radio-box">
+                        <label>休息</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺标志</p>
+                <img class="shop-logo-edit" src="/img/shop-small-img.png"/>
+                <p class="upload-p"><button class="grayback-btn1 upload-img-btn upload-logo">上传图片</button>文件格式GIF、JPG、JPEG、PNG文件大小80K以内，建议尺寸80PX*80PX</p>
+            </div>
+
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺Banner</p>
+                <img class="shop-back-img-edit" src="/img/shop-top-back.jpg"/>
+                <p class="upload-p"><button class="grayback-btn1 upload-img-btn upload-shopback">上传图片</button>文件格式GIF、JPG、JPEG、PNG文件大小80K以内，建议尺寸80PX*80PX</p>
+            </div>
+
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺图片</p>
+                <img class="shop-content-img-edit" src="/img/malltop.png"/>
+                <p class="upload-p"><button class="grayback-btn1 upload-img-btn upload-shopimg">上传图片</button>文件格式GIF、JPG、JPEG、PNG文件大小80K以内，建议尺寸80PX*80PX</p>
+            </div>
+
+
+            <div class="shop-info-div">
+                <p class="shop-info-p">店铺简介</p>
+                <textarea class="shop-intro-box">本店经营清洁用品, 拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。</textarea>
+            </div>
+
+
+
+
+
+
+
+
+            <p class="shop-info-p">店铺介绍</p>
+            <textarea placeholder="请介绍您的店铺" class="shop-introduce-box">本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。本店经营清洁用品,拖把、扫帚簸箕、抹布、玻璃清洁工具、除尘工具、清洁刷|桶等，厂家直销。</textarea>
+            <br/>
+            <button class="redback-btn1 shop-manage-save">保存</button>
+        </div>
+    </div>
+    </div>
+
+
+</div>
+<input type="file" value="shop-logo" accept="image/jpeg,image/gif,image/png" class="hidden"/>
+<input type="file" value="shop-back-img" accept="image/jpeg,image/gif,image/png" class="hidden"/>
+<input type="file" value="shop-content-img" accept="image/jpeg,image/gif,image/png" class="hidden"/>
+<br/><br/><br/><br/>
+</body>
+</html>

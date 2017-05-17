@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿母工业</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet"type="text/css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <link href="/css/managerfinance.css" rel="stylesheet"/>
+    <script src="/js/default.js" type="text/javascript"></script>
+    <script src="/js/financeInvoiceManager.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container ">
+    @@include("public/managerShopLeft.html",{"kind":"3","num":"3"})
+
+    <div class="right-content-box">
+        <div class="top-route-box">
+        </div>
+        <script>
+            var data = [{name:'财务管理',url:''},
+                {name:'发票管理',url:''},{
+                    name:'开票记录',url:''
+                }
+            ];
+            initRouteBox(data,$('.top-route-box'));
+        </script>
+
+        <div class="finance-right-top">
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    买家查询
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2" placeholder="输入账号/名称..."/>
+                </div>
+            </div>
+            <div class="right-top-ele">
+                    <span class="order-top-title1">
+                        订单金额
+                    </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="text">
+                    <span class="separate"></span>
+                    <input class="input2" type="text"/>
+                </div>
+            </div>
+
+            <div class="right-top-ele">
+                <span class="order-top-title1">
+                    订单编号
+                </span>
+                <div class="order-top-content">
+                    <input type="text" class="input2"/>
+                </div>
+            </div>
+
+            <div class="right-top-ele">
+                    <span class="order-top-title1">
+                        下单日期
+                    </span>
+                <div class="order-top-content order-time-content">
+                    <input class="input2" type="date">
+                    <span class="separate"></span>
+                    <input class="input2" type="date"/>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+            <button class="redback-btn3 search-order">搜索客户</button>
+        </div>
+
+        <div class="content-table-top">
+            <div class="table-selected-box ">
+                <a class="table-selected-ele" href="financeInvoiceManager.html">未开票</a>
+                <a class="table-selected-ele active">已开票</a>
+            </div>
+            <div class="flip-box">
+                <a>上一页</a>
+                <a>下一页</a>
+            </div>
+        </div>
+
+        <div class="content-table-box invoice-record-manager-table">
+            <div class="content-table-head">
+                <div class="order-info">订单信息</div>
+                <div class="order-money">订单金额</div>
+                <div class="invoice-target">发票抬头</div>
+                <div class="invoice-type">发票类型</div>
+                <div class="invoice-number">发票编号</div>
+                <div class="invoice-time">开票时间</div>
+                <div class="operation">操作</div>
+            </div>
+            <div class="content-table-content">
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a" href="orderDetail.html">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="order-money">￥<span>45000</span></div>
+                            <div class="invoice-target"><div>安吉阿母工业设备有限公司</div></div>
+                            <div class="invoice-type">增值税发票</div>
+                            <div class="invoice-number">42658912</div>
+                            <div class="invoice-time">
+                                <div>
+                                    <p>2017-04-45</p>
+                                    <p>16:05</p>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button class="noneback-red-btn voucher-btn">凭证图片</button>
+                                <div class="tool-box tool-bottom hidden">
+                                    <div class="tooltip"></div>
+                                    <div class="tool-content">
+                                        <span class="tool-content-delete"></span>
+                                        <div class="img-box">
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a" href="orderDetail.html">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                            </div>
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-pub-box">
+                            <div class="order-money">￥<span>45000</span></div>
+                            <div class="invoice-target"><div>安吉阿母工业设备有限公司</div></div>
+                            <div class="invoice-type">增值税发票</div>
+                            <div class="invoice-number">42658912</div>
+                            <div class="invoice-time">
+                                <div>
+                                    <p>2017-04-45</p>
+                                    <p>16:05</p>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button class="noneback-red-btn voucher-btn">凭证图片</button>
+                                <div class="tool-box tool-bottom hidden">
+                                    <div class="tooltip"></div>
+                                    <div class="tool-content">
+                                        <span class="tool-content-delete"></span>
+                                        <div class="img-box">
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-table-ele">
+                    <div class="ele-head">
+                        <span>订单编号:20161234856</span>
+                        <span>成交时间:2016.12.31 09:33</span>
+                        <span class="remark no-remark">
+                            <span>添加备注</span>
+                            <div class="remark-box remark-bottom hidden">
+                                <div class="tooltip"></div>
+                                <div class="remark-content">
+                                    <span class="remark-content-delete"></span>
+                                    <textarea placeholder="输入备注..."></textarea>
+                                    <br/>
+                                    <button class="redback-btn1">保存</button>
+                                </div>
+                            </div>
+                        </span>
+                        <a class="order-detail-a" href="orderDetail.html">订单详情</a>
+                        <span class="buyer-tel">15757147632</span>
+                        <span class="buyer-name">安吉阿母工业设备有限公司</span>
+                    </div>
+                    <div class="ele-content">
+                        <div class="order-product">
+                            <div class="order-a-product">
+                                <div class="order-info">
+                                    <a>
+                                        <img src="/img/goodsDetail.png"/>
+                                    </a>
+                                    <p class="product-name">2.0-2.5吨手动液压搬运车</p>
+                                    <p class="product-SKU">SKU号:01H1L001</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-pub-box">
+                            <div class="order-money">￥<span>45000</span></div>
+                            <div class="invoice-target"><div>安吉阿母工业设备有限公司</div></div>
+                            <div class="invoice-type">增值税发票</div>
+                            <div class="invoice-number">42658912</div>
+                            <div class="invoice-time">
+                                <div>
+                                    <p>2017-04-45</p>
+                                    <p>16:05</p>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button class="noneback-red-btn voucher-btn">凭证图片</button>
+                                <div class="tool-box tool-bottom hidden">
+                                    <div class="tooltip"></div>
+                                    <div class="tool-content">
+                                        <span class="tool-content-delete"></span>
+                                        <div class="img-box">
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                            <img src="/img/cliUpload.png"/>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--<table class="invoice-record-table">-->
+            <!--<thead>-->
+            <!--<tr>-->
+                <!--<th>开票日期</th>-->
+                <!--<th>发票类型</th>-->
+                <!--<th>发票编号</th>-->
+                <!--<th>开票金额</th>-->
+                <!--<th>开票对象</th>-->
+                <!--<th class="remark-info">备注信息</th>-->
+                <!--<th>操作</th>-->
+            <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+            <!--<tr>-->
+                <!--<td>2016-12-11</td>-->
+                <!--<td>增值税发票</td>-->
+                <!--<td>825454220</td>-->
+                <!--<td>￥<span>6500.00</span></td>-->
+                <!--<td>安吉阿母工业设备有限公司</td>-->
+                <!--<td class="remark-info">这个发票是叉车、燃油两个东西的发票</td>-->
+                <!--<td class="operation">-->
+                    <!--<button class="noneback-red-btn voucher-btn">凭证图片</button>-->
+                    <!--<div class="tool-box tool-bottom hidden">-->
+                        <!--<div class="tooltip"></div>-->
+                        <!--<div class="tool-content">-->
+                            <!--<span class="tool-content-delete"></span>-->
+                            <!--<div class="img-box">-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>2016-12-11</td>-->
+                <!--<td>增值税发票</td>-->
+                <!--<td>825454220</td>-->
+                <!--<td>￥<span>6500.00</span></td>-->
+                <!--<td>安吉阿母工业设备有限公司</td>-->
+                <!--<td class="remark-info">这个发票是叉车、燃油两个东西的发票</td>-->
+                <!--<td class="operation">-->
+                    <!--<button class="noneback-red-btn voucher-btn">凭证图片</button>-->
+                    <!--<div class="tool-box tool-bottom hidden">-->
+                        <!--<div class="tooltip"></div>-->
+                        <!--<div class="tool-content">-->
+                            <!--<span class="tool-content-delete"></span>-->
+                            <!--<div class="img-box">-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>2016-12-11</td>-->
+                <!--<td>增值税发票</td>-->
+                <!--<td>825454220</td>-->
+                <!--<td>￥<span>6500.00</span></td>-->
+                <!--<td>安吉阿母工业设备有限公司</td>-->
+                <!--<td class="remark-info">这个发票是叉车、燃油两个东西的发票</td>-->
+                <!--<td class="operation">-->
+                    <!--<button class="noneback-red-btn voucher-btn">凭证图片</button>-->
+                    <!--<div class="tool-box tool-bottom hidden">-->
+                        <!--<div class="tooltip"></div>-->
+                        <!--<div class="tool-content">-->
+                            <!--<span class="tool-content-delete"></span>-->
+                            <!--<div class="img-box">-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>2016-12-11</td>-->
+                <!--<td>增值税发票</td>-->
+                <!--<td>825454220</td>-->
+                <!--<td>￥<span>6500.00</span></td>-->
+                <!--<td>安吉阿母工业设备有限公司</td>-->
+                <!--<td class="remark-info">这个发票是叉车、燃油两个东西的发票</td>-->
+                <!--<td class="operation">-->
+                    <!--<button class="noneback-red-btn voucher-btn">凭证图片</button>-->
+                    <!--<div class="tool-box tool-bottom hidden">-->
+                        <!--<div class="tooltip"></div>-->
+                        <!--<div class="tool-content">-->
+                            <!--<span class="tool-content-delete"></span>-->
+                            <!--<div class="img-box">-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                                <!--<img src="/img/cliUpload.png"/>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+        <!--</table>-->
+        <div class="account-table-bottom">
+            <div class="paging-box float-right click"></div>
+        </div>
+    </div>
+    <div class="clear-both"></div>
+</div>
+</body>
+</html>

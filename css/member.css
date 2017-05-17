@@ -1,0 +1,154 @@
+.homeColB-member
+{
+    border:1px solid #c7c8c8;
+    letter-spacing:1px;
+    border-radius : 6px;
+    margin-left:145px;
+    padding-bottom:10px; text-align:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    min-height:560px;
+    height: auto !important;
+    height:560px;
+}
+.homeColB-member .welcome
+{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #e0e1e1;
+}
+
+.homeColB-member .welcome span
+{
+    margin-left: 30px;
+    font: 36px/72px 微软雅黑;
+}
+
+.homeColB-member .trust
+{
+    width: 100%;
+    height: 100px;
+}
+
+.homeColB-member .trust span
+{
+    margin-left: 70px; font: 22px/100px 微软雅黑
+}
+
+.homeColB-member .cancel
+{
+    width: 100%; margin-top: 50px; border-top: 2px solid #e0e1e1;
+}
+.homeColB-member .cancel div
+{
+    width: 100%; margin-top: 20px;
+}
+.homeColB-member .cancel .cancelbotten
+{
+    margin-left: 32px; padding-left: 10px;
+}
+.homeColB-member .cancel .question
+{
+    padding-left: 500px; font: 12px 微软雅黑;
+}
+
+.login
+{
+    font-family: "微软雅黑";
+    margin: 20px auto 292px auto;
+    border: 5px solid #878787;
+    height:490px;
+    width:958px;
+}
+
+.login  .fl
+{
+    padding:18px 0 22px 20px;
+}
+.login  .memberform
+{
+    width: 50%; height: 265px;
+}
+.login  .memberform .inputlong
+{
+    width: 352px;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding-left:10px;
+    height: 37px;
+    line-height:37px;
+    letter-spacing:1px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.login  .memberform .inputshort
+{
+    width: 269px;
+    line-height: 37px;
+    height:37px;
+    border: 1px solid #dfdfdf;
+
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding-left:10px;
+    letter-spacing:1px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.login  .memberform .inputsmall
+{
+    width: 188px;
+    line-height: 37px;
+    height: 37px;
+    border: 1px solid #dfdfdf;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding-left:10px;
+    letter-spacing:1px;
+    margin-right:10px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.login  .memberform .registerinput
+{
+    margin-left: 40px;
+}
+.login  .memberform .registerinput .logintitle .content
+{
+    font-size:32px;height:42px;line-height:42px;
+}
+
+.login  .memberform .registerinput .logintitle .register
+{
+    font-size:12px;position: absolute;    margin: 30px 0 0 145px;width:65px;
+
+}
+.login  .memberform .registerinput .logintitle .register a,.login  .memberform .send a
+{
+    color:#e60016;
+}
+
+.login .form-input .icoimg{float:left;}
+.login .form-input b{float:left;background-color:#fff; padding:0 10px;height:39px;line-height:39px;font-size:16px;}
+.login .form-input .send{ border: 1px solid #dcdddd;padding: 13px 51px 10px 51px;}
+.login  .memberform .user{margin-top:14px;}
+.login  .memberform .pass{margin-top:12px;}
+.login  .memberform .item{margin-top:10px; height:41px;}
+
+.login  .memberform select{    width: 94px;
+    height: 28px;
+    margin-right: 10px;
+    line-height: 28px;
+    margin-top:6px;}
+
+.login  .memberform .find{margin-top:10px; height:12px}
+.login  .memberform .find .chcek{}
+.login  .memberform .find .chcek input{float:left;}
+.login  .memberform .find .auto{   padding-left: 10px;}
+.login  .memberform .find .findpwd{   padding-left: 262px;}
+.login  .memberform .gologin{margin-top:20px;}
+.login  .memberform .gotoregister
+{
+    padding-top: 15px; padding-left: 335px;
+}
