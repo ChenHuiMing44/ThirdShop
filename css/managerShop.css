@@ -448,7 +448,7 @@ button.shop-edit-btn{
 }
 
 .choice-model-ele .check-box-round{
-    margin-left: 24px;
+    /*margin-left: 24px;*/
 }
 .choice-model-ele .check-box-round{
     position: relative;
@@ -724,3 +724,23 @@ button.shop-edit-btn{
 .permis-table td.operation button{
     padding: 5px;
 }
+.edit-box .btn-box{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+.edit-box .btn-box .redback-btn1 {
+    font-size: 15px;
+    line-height: 32px;
+    height: 32px;
+    width: 100px;
+}
+.shop-bank-content > p {
+    padding: 10px 0px;
+}
+.shop-bank-content span.notNull {
+    color: red;
+    margin: 5px;
+}
+
+
