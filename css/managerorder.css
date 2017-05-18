@@ -1716,45 +1716,51 @@
 .change-order-alert.alert-content .change-order-operation {
   padding: 20px 0px;
 }
+.change-order-alert.alert-content .change-order-operation .redback-btn2 {
+  width: 80px;
+  height: 26px;
+  line-height: 26px;
+}
 .change-order-alert.alert-content .change-order-operation .redback-btn2#change-order-cancel {
-  margin-left: 30px;
+  margin-left: 16px;
 }
 .change-send-ele {
-  height: 36px;
-  padding: 10px 0px;
+  height: 32px;
+  padding: 5px 0px;
 }
 .change-send-ele .change-send-title {
-  height: 36px;
-  width: 90px;
+  height: 32px;
+  width: 76px;
   float: left;
-  line-height: 36px;
+  line-height: 32px;
 }
 .order-ship-content {
   padding: 10px 30px;
 }
 .order-ship-content .order-ship-ele-title {
   float: left;
-  width: 95px;
-  height: 36px;
-  line-height: 36px;
+  width: 90px;
+  height: 32px;
+  line-height: 32px;
 }
 .order-ship-content .order-send-info,
 .order-ship-content .order-since-info {
-  padding: 10px;
+  padding: 8px;
 }
 .order-ship-content .order-send-info .order-send-ele,
 .order-ship-content .order-since-info .order-send-ele {
-  padding: 10px 0px;
-  min-height: 36px;
+  padding: 5px 0px;
+  min-height: 32px;
 }
 .order-ship-content .order-send-info .order-send-ele .input1.small,
 .order-ship-content .order-since-info .order-send-ele .input1.small {
   width: 190px;
+  height: 30px;
 }
 .order-ship-content .order-send-info .order-send-ele .send-ele-remark,
 .order-ship-content .order-since-info .order-send-ele .send-ele-remark {
   margin-left: 10px;
-  line-height: 36px;
+  line-height: 30px;
   font-size: 13px;
   color: #82726c;
 }
@@ -1844,7 +1850,7 @@
   color: #E60016;
 }
 .order-ship-table tbody tr {
-  height: 112px;
+  height: 80px;
   border: 1px solid #e1e0df;
   border-top: 0px;
 }

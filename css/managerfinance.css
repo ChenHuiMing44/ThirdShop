@@ -5,7 +5,7 @@
 }
 .finance-right-top {
   border: 1px solid #c7c7c7;
-  padding: 30px;
+  padding: 10px 30px;
   overflow: hidden;
 }
 .search-order,
@@ -14,28 +14,28 @@
   margin-left: 0px;
 }
 .right-top-ele {
-  padding: 10px 0px;
+  padding: 5px 0px;
   float: left;
   margin-right: 30px;
 }
 .right-top-ele .order-top-title1 {
   margin-right: 10px;
   width: 80px;
-  min-height: 40px;
+  min-height: 32px;
   float: left;
-  font-size: 14px;
+  font-size: 13px;
   display: block;
-  line-height: 40px;
+  line-height: 32px;
   text-align: right;
 }
 .right-top-ele .order-top-title {
   width: 115px;
-  min-height: 40px;
-  margin-right: 20px;
+  min-height: 32px;
+  margin-right: 10px;
   float: left;
-  font-size: 14px;
+  font-size: 13px;
   display: block;
-  line-height: 40px;
+  line-height: 32px;
   text-align: right;
 }
 .right-top-ele .order-top-title .drop-down-box2 {
@@ -45,8 +45,8 @@
 }
 .right-top-ele .order-top-title .drop-down-box2 a {
   margin-left: 10px;
-  height: 36px;
-  font-size: 14px;
+  height: 30px;
+  font-size: 12px;
   margin-right: 20px;
 }
 .right-top-ele .order-top-title .check-box-rect {
@@ -60,7 +60,7 @@
 }
 .right-top-ele .order-top-content {
   float: left;
-  min-height: 40px;
+  min-height: 32px;
 }
 .right-top-ele .order-top-content .input2 {
   border-radius: 5px;
@@ -69,12 +69,12 @@
   display: inline-block;
 }
 .right-top-ele .order-top-content .separate {
-  margin: 0px 10px;
+  margin: 0px 8px;
   padding: 0px 6px;
   border: 1px solid #ccc;
   display: inline-block;
   position: relative;
-  top: -7px;
+  top: -4px;
 }
 .right-top-ele .order-top-content .drop-down-box2 {
   margin-left: 0px;
@@ -86,21 +86,21 @@
   width: 160px;
 }
 .content-table-top {
-  min-height: 60px;
+  min-height: 40px;
   overflow: hidden;
   padding: 0px 30px;
 }
 .content-table-top .flip-box {
-  height: 30px;
+  height: 24px;
   float: right;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 .content-table-top .flip-box a {
-  height: 28px;
-  width: 80px;
+  height: 22px;
+  width: 60px;
   margin-left: 20px;
-  line-height: 28px;
-  font-size: 14px;
+  line-height: 22px;
+  font-size: 13px;
   text-align: center;
   background: #fff;
   color: #666;
@@ -114,19 +114,19 @@
 }
 .content-table-top .table-selected-box {
   float: left;
-  margin-top: 15px;
+  margin-top: 8px;
   font-size: 0px;
   width: 260px;
 }
 .content-table-top .table-selected-box .table-selected-ele {
   float: left;
-  margin-right: 30px;
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 16px;
+  margin-right: 20px;
+  width: 76px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 12px;
   color: #555;
 }
 .content-table-top .table-selected-box .table-selected-ele:active {
@@ -137,7 +137,7 @@
   color: #fff !important;
 }
 .content-table-box .content-table-head {
-  height: 40px;
+  height: 32px;
   margin: auto;
   overflow: hidden;
   background-color: #e6e6e6;
@@ -147,8 +147,8 @@
 .content-table-box .content-table-head > div {
   float: left;
   text-align: center;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 32px;
 }
 .content-table-box .content-table-content .content-table-ele {
   border-left: 1px solid #e1e0df;
@@ -156,7 +156,7 @@
   border-right: 1px solid #e1e0df;
 }
 .content-table-box .content-table-content .content-table-ele .ele-head {
-  padding: 10px 8px;
+  padding: 5px 8px;
   height: 19px;
   line-height: 19px;
   background-color: #FAFAFA;
@@ -198,8 +198,8 @@
 .content-table-box .content-table-content .content-table-ele .ele-content {
   overflow: hidden;
   position: relative;
-  min-height: 100px;
-  padding: 10px 0px;
+  min-height: 80px;
+  padding: 5px 0px;
 }
 .content-table-box .content-table-content .content-table-ele .ele-content > div {
   float: left;
@@ -214,20 +214,20 @@
   position: absolute;
   right: 0px;
   top: 50%;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 .content-table-box .content-table-content .content-table-ele .ele-content .order-pub-box > div {
   float: left;
 }
 .content-table-box .content-table-bottom {
-  height: 64px;
+  height: 44px;
   padding: 0px 30px;
   margin: auto;
   background-color: #e6e6e6;
 }
 .content-table-box .content-table-bottom .paging-box {
   position: relative;
-  top: 17px;
+  top: 7px;
   margin-right: 0px;
 }
 .content-table-box .content-table-bottom .order-operation-box {
@@ -334,8 +334,8 @@
 .finance-noreceivable-table .ele-content div.auditor-detail,
 .finance-hadreceivable-table .ele-content div.auditor-detail {
   width: 152px;
-  line-height: 100px;
-  height: 100px;
+  line-height: 80px;
+  height: 80px;
   text-align: center;
 }
 .finance-noreceivable-table .ele-content div.order-money > span,
@@ -377,21 +377,22 @@
 .finance-noreceivable-table .ele-content div.operation,
 .finance-hadreceivable-table .ele-content div.operation {
   width: 152px;
-  padding: 10px 0px;
+  padding: 7px 0px;
   text-align: center;
 }
 .finance-noreceivable-table .ele-content div.operation button.redback-btn1,
 .finance-hadreceivable-table .ele-content div.operation button.redback-btn1 {
-  height: 30px;
+  height: 24px;
   line-height: 24px;
-  font-size: 14px;
-  width: 80px;
-  margin: 5px 0px;
+  font-size: 13px;
+  width: 64px;
+  display: block;
+  margin: 6px auto;
 }
 .finance-noreceivable-table .ele-content div.receivable-time,
 .finance-hadreceivable-table .ele-content div.receivable-time {
   width: 152px;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 .finance-noreceivable-table .ele-content div.receivable-time p,
 .finance-hadreceivable-table .ele-content div.receivable-time p {
@@ -402,7 +403,7 @@
 .finance-noreceivable-table .ele-content div.order-info,
 .finance-hadreceivable-table .ele-content div.order-info {
   width: 222px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   height: 60px;
 }
 .finance-noreceivable-table .ele-content div.order-info img,
@@ -523,7 +524,7 @@
   font-size: 14px;
 }
 .account-table-box tbody tr {
-  height: 86px;
+  height: 72px;
   border-bottom: 1px solid #E1E0DF;
 }
 .account-table-box tbody tr td {
@@ -563,11 +564,11 @@
   position: absolute;
 }
 .account-table-bottom {
-  height: 64px;
+  height: 44px;
   background-color: #E6E6E6;
 }
 .account-table-bottom .paging-box {
-  margin-top: 17px;
+  margin-top: 7px;
 }
 .table-top-operation {
   padding: 10px 10px;
@@ -841,7 +842,7 @@
 }
 .invoice-manager-table .ele-content div.order-info {
   width: 222px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   height: 60px;
 }
 .invoice-manager-table .ele-content div.order-info img {
@@ -868,21 +869,21 @@
 .invoice-manager-table .ele-content .selected-order {
   position: absolute;
   width: 40px;
-  height: 100px;
+  height: 80px;
   top: 50%;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 .invoice-manager-table .ele-content .selected-order .check-box-rect {
   margin: 0px;
-  margin-top: 32px;
+  margin-top: 22px;
   margin-left: 2px;
 }
 .invoice-manager-table .ele-content div.order-money,
 .invoice-manager-table .ele-content div.product-number,
 .invoice-manager-table .ele-content div.buyer-account {
   width: 144px;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
   text-align: center;
 }
 .invoice-manager-table .ele-content div.order-money > span,
@@ -893,14 +894,14 @@
 .invoice-manager-table .ele-content div.buyer-record {
   text-align: center;
   width: 152px;
-  line-height: 100px;
-  height: 100px;
+  line-height: 80px;
+  height: 80px;
 }
 .invoice-manager-table .ele-content div.operation {
   width: 152px;
   text-align: center;
-  line-height: 100px;
-  height: 100px;
+  line-height: 80px;
+  height: 80px;
 }
 .invoice-manager-table .ele-content div.operation > button.redback-btn2 {
   width: 64px;
@@ -1154,7 +1155,7 @@
   padding: 0px 12px;
   background: #e60016;
   color: #fff;
-  margin: 18px 20px;
+  margin: 8px 20px;
   cursor: pointer;
   text-align: center;
 }
